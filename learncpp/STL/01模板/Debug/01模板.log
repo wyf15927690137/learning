@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(01模板.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  函数模板排序int和char.cpp
+  01模板.vcxproj -> H:\学习\代码\STL\02 编译过程\Debug\01函数模板.exe

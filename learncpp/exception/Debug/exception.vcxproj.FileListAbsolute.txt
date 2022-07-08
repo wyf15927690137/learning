@@ -1,0 +1,2 @@
+H:\学习\代码\exception\Debug\exception.exe
+H:\学习\代码\exception\Debug\exception.pdb
