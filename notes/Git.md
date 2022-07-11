@@ -31,7 +31,7 @@ git commit (提交所有暂存区文件)
 
 git commit -m "提交内容说明“
 
-
+ssh -T -p 443 git@ssh.github.com
 
 git status 查看文件状态	
 
