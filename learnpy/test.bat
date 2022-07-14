@@ -1,1 +1,1 @@
-python 24os.py
+python 24os.py %*
