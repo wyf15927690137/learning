@@ -89,9 +89,9 @@ p4 sync -f:(p4 clean -d -e)
 p4 sync //depot/sigrity/main/Install/cm/jenkins_utils/...
 overwrite the existed files,don't overwrite files checked out
 
-#refreshing all the edited files and missing files
+#refreshing all the edited files and missing files(except checked out files)
 p4 sync -f //depot/sigrity/main/Install/cm/jenkins_utils/...
-
+p4 clean -a //depot/sigrity/main/Install/cm/jenkins_utils/...
 p4 set
 p4 set P4PORT= xx.xxx.xx.xxx:xxxxx
 p4 set P4USER=username

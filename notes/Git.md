@@ -133,3 +133,11 @@ git withdraw commited file (not pushed):
 ```
 git reset --soft HEAD^
 ```
+
+git overwrite local changes
+
+```
+git fetch --all
+git reset --hard origin/master
+```
+
