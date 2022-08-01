@@ -36,6 +36,7 @@ tar
 
 ```
 tar zvxf *.tar.gz
+tar -xvf *tar.xz 
 ```
 
 change the permission of a folder
@@ -63,14 +64,14 @@ wget  https://cmake.org/files/v3.15/cmake-3.15.7.tar.gz
 
 tee:  
 
-```
+```sh
 tee (-a) <file>	#input into a file
 echo test | tee -a <file>	#output into a file 	"-a" means append
 ```
 
 p4 command：
 
-```
+```sh
 p4 clean -a -d -e:
 -a
 Added files: Find files in the workspace that have no corresponding files in the depot and delete them.
@@ -85,10 +86,11 @@ p4 sync
 p4 set P4CLIENT=yanfeiw_shcpgrdwin1_new
 p4 set P4PORT=ssl:p4shanghai:2644
 p4 sync -f:(p4 clean -d -e)
+p4 sync //depot/sigrity/main/Install/cm/jenkins_utils/...
 overwrite the existed files,don't overwrite files checked out
 
-
-p4 sync -f //depot/sigrity/main/Install/cm/jenkins_utils/Linux/TrinityUtil.sh
+#refreshing all the edited files and missing files
+p4 sync -f //depot/sigrity/main/Install/cm/jenkins_utils/...
 
 p4 set
 p4 set P4PORT= xx.xxx.xx.xxx:xxxxx
@@ -100,5 +102,36 @@ p4 set P4CLIENT=nameofworkspace
 
 windows \r\n problem:
 
-```
+```sh
 sed -i "s/\r//" ****.sh
+```
+
+copy folders from one server to another
+
+```
+scp -r cc@sjf-cpgmsa10:/Software/Python3 ./Files
+```
+
+```sh
+ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ python3 get-pip.py
+```
+
+find a process and kill it
+
+```sh
+ps aux | grep "gunicorn"
+kill -r processid
+```
+
+find processes contains string "pem -b :5000", cut -c 9-15 will get the processes id, xargs will make the process ids as the input parameter as kill -9
+
+```sh
+ps aux | grep "pem \-b :5000" | cut -c 9-15 | xargs kill -9
+```
+
+ssh login remote linux server without password
+
+```sh
+ssh-copy-id -i ~/.ssh/id_rsa.pub shsirdlnx2
+```

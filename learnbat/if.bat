@@ -1,10 +1,10 @@
-set ProjectBuildPath=$1
-if("$ProjectBuildPath" =~ */MFC/Projects/*) then
-    echo "contains MFC Projects"
-	setenv MSOFTLM_HOST @rmflex05
-	setenv MWHOME "/lan/sig/cm/scratch/mainwin56/mw"
-	source $MWHOME/setupmainwin.csh
-	echo "set env successful"
-else
-    echo "Not contains  MFC Projects"
-endif
+@REM @echo off
+set x = %1
+set y = %2
+echo %x%
+echo %y%
+if  (%1 euqal %2) (
+    echo   euqal 
+)  else  (
+    echo   not euqal 
+)

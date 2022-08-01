@@ -128,3 +128,8 @@ git reset --hard origin/master
 git pull
 ```
 
+git withdraw commited file (not pushed):
+
+```
+git reset --soft HEAD^
+```
