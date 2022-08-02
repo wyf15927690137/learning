@@ -117,6 +117,13 @@ scp -r cc@sjf-cpgmsa10:/Software/Python3 ./Files
  python3 get-pip.py
 ```
 
+view python modules
+
+```
+python3
+help("modules")
+```
+
 find a process and kill it
 
 ```sh
@@ -135,3 +142,11 @@ ssh login remote linux server without password
 ```sh
 ssh-copy-id -i ~/.ssh/id_rsa.pub shsirdlnx2
 ```
+
+how to use VNC viewer
+
+```
+vncserver -depth 24 -geometry 2560x1440
+shsirdlnx2:2
+```
+

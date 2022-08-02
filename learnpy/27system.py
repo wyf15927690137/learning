@@ -26,3 +26,5 @@ for path,dirs,files in os.walk("D:\PersonalLearn\learning\learnbat"):
     print(path)
     print(dirs)
     print(files)
+# get operation system type   win: nt   linux: posix
+print(os.name)
