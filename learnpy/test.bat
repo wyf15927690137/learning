@@ -1,1 +1,1 @@
-python 24os.py %*
+start python 24os.py %*
