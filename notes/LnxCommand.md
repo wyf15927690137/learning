@@ -150,3 +150,10 @@ vncserver -depth 24 -geometry 2560x1440
 shsirdlnx2:2
 ```
 
+update git on linux
+
+```
+wget -O v2.24.1.tar.gz https://github.com/git/git/archive/v2.24.1.tar.gz
+tar -xzvf ./v2.24.1.tar.gz
+```
+
