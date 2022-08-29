@@ -123,7 +123,6 @@ git config --global http.sslverify "false"
 get latest code and overwrite local
 
 ```
-git fetch --all
 git reset --hard origin/master
 git pull
 ```
@@ -139,5 +138,11 @@ git overwrite local changes
 ```
 git fetch --all
 git reset --hard origin/master
+```
+
+git delete local ad and commit
+
+```
+git reset HEAD^
 ```
 

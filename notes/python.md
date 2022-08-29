@@ -2,9 +2,15 @@ download get-pip.py
 
 python get-pip.py install
 
+add python.exe to path
 
+add ./script/pip.exe to path
 
+use pip to install 3rd party
+
+```
 pip install flask
+```
 
 pycharm：
 

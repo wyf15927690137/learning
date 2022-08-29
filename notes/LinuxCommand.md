@@ -77,3 +77,19 @@ edit the setenv.csh file
 
 source setenv.csh	then the env will works
 
+clean empty folder
+
+```
+find . -type d -empty -deletes
+```
+
+find a folder
+
+```
+find . -name "lnx86_output" | xargs rm -rf {}
+```
+
+```
+grep -r "redeem reward" /home/tom/
+```
+

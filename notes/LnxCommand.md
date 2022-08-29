@@ -152,8 +152,21 @@ shsirdlnx2:2
 
 update git on linux
 
-```
+```sh
 wget -O v2.24.1.tar.gz https://github.com/git/git/archive/v2.24.1.tar.gz
 tar -xzvf ./v2.24.1.tar.gz
+```
+
+view files number & size
+
+```shell
+du -s (directorypath)	#number
+du -sh  (directorypath)	#size
+```
+
+source a script: execute the script in current shell env
+
+```shell
+source test.sh
 ```
 
