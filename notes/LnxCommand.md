@@ -170,3 +170,13 @@ source a script: execute the script in current shell env
 source test.sh
 ```
 
+use python pip in linux
+
+```
+which python
+python -m pip -V
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+python -m pip install flask
+```
+
