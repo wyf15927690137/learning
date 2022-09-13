@@ -148,6 +148,13 @@ how to use VNC viewer
 ```
 vncserver -depth 24 -geometry 2560x1440
 shsirdlnx2:2
+/grid/common/pkgs/perforce/latest/bin/p4v&
+
+# kill the first vnc process
+vncserver -kill :1
+
+# change the password
+vncpasswd
 ```
 
 update git on linux
@@ -178,5 +185,11 @@ python -m pip -V
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 python -m pip install flask
+```
+
+disk free space:
+
+```
+df
 ```
 
