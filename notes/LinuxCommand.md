@@ -45,13 +45,12 @@ command1 || command2 [|| command3 ...
 只要有一个命令返回真(命令返回值 $? == 0)，后面的命令就不会被执行。 –直到返回真的地方停止执行
 ————————————————
 
-
+## 
 
 # screen:
 
-
-
-screen -S test	//create a screen named test
+```shell
+screen -S screen1	//create a screen named test
 
 screen -ls	//view all the screen
 
@@ -59,9 +58,10 @@ exit	//delete the current screen
 
 ctrl+a+d	//put the current screen background
 
-screen -r {pid}	//step into  a screen
+screen -r {pid}(or screen1)	//step into  a screen
 
 screen -x {pid}   //step into a screen in multiplay
+```
 
 
 

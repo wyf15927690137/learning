@@ -187,9 +187,29 @@ python get-pip.py
 python -m pip install flask
 ```
 
+install dask
+
+```
+python -m pip install "dask[complete]"
+add ~/.local/bin into PATH
+```
+
 disk free space:
 
 ```
 df
+```
+
+view ip info
+
+```
+ifconfig (sudo apt install net-tools)
+
+hostname -I
+```
+
+```
+chown newowner filename 
+chown newowner foldername -R
 ```
 

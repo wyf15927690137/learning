@@ -1,0 +1,2 @@
+echo "test script"
+pause

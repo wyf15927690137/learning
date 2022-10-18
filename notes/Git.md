@@ -82,29 +82,30 @@ git push origin master
 
 
 
-分支：
+branch：
 
-git branch -v
+local branch:
 
+```
 git branch branch01
-
 git checkout branch01
-
-git branch -D branch01
-
-git checkout master
-
-git merge branch01
-
-```
-submit a merge request:
-git branch branchname
-git checkout branchname
-git add / commit -m/ push
-create merge request in gitlab
+git checkout -b branch01
+git branch -d branch01
 ```
 
+remote branch
 
+```
+git checkout -b local_branch
+git ad .
+git cm -m "init remote_branch"
+git push origin remote_branch
+git push origin --delete remote_branch
+
+# view the connection betweent local and remote branch
+git branch -vv
+git branch --set-upstream-to=origin/remote_branch  local_branch
+```
 
 git更新单个文件：
 
@@ -144,5 +145,9 @@ git delete local ad and commit
 
 ```
 git reset HEAD^
+```
+
+```
+git config --global core.autocrlf true
 ```
 

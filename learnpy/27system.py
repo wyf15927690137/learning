@@ -3,6 +3,8 @@ import os
 os.system("echo this is a test")
 os.system("dir")
 os.system("echo %WORKSPACE%")
+os.system("start ./test/test.bat")
+exit(1)
 # get current file path
 cwd=os.getcwd()
 print(cwd)
