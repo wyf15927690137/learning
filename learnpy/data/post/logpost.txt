@@ -1,0 +1,45 @@
+part1:
+passed cases: 17
+
+Fill_in_multiple_solution_frequency_crash : 0:00:02
+one_trace_low_freq_solution_CCMRP02620552 : 0:00:57
+TempMapping_FiberWeave_Dmesh : 0:06:06
+CCMPR02323184 : 0:00:06
+magnetic_pwl_discrete_legacy : 0:03:37
+wave3d_prepare_three_traces : 0:00:00
+CCR2399781_Subparts_SMD_connector_misaligned : 0:00:00
+rfin_mmic_nom : 0:07:21
+MTC_overlapcase : 0:09:36
+xmesh : 0:03:56
+Lmesh_test2 : 0:02:02
+regr_one_trace_c3d : 0:00:20
+ABC_boundary : 0:02:52
+volumnmesh_failed : 0:01:42
+multi_structure : 0:04:22
+legacy_antenna_fields : 0:00:00
+legacy_antenna : 0:00:00
+
+passed cases cost time: 0:42:59
+
+part2:
+passed cases: 16
+
+Asus_cut_step7_setting : 0:02:28
+0_metal_Z_location : 0:03:27
+CCR2399781_SMD_misaligned : 0:00:03
+one_trace_small_msf : 0:06:44
+0_metal_Z_location_initialmesh : 0:00:03
+Wave3DSettingmeshAlgorithm_SNR : 0:00:00
+CCMPR02495122_open_spd_crash : 0:00:04
+Material_Er1_LT001 : 0:02:21
+filldie_sfreq : 0:04:20
+Mapping_top_bottom : 0:05:02
+58Dieblock_matfile : 0:03:43
+56asym_strip : 0:03:52
+Wirebond_KNSstandard_Dmesh : 0:03:51
+smoke_clarity3dlayout : 0:00:00
+workbench_AWR_flow_case : 0:01:03
+CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin : 0:01:52
+
+passed cases cost time: 0:38:53
+

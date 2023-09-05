@@ -8,8 +8,11 @@ print(random.random())
 print(random.uniform(13, 20))
 
 str = 'studypython'
+# the zero ele
 print(str[0])
+# the six ele
 print(str[6])
+# the last ele
 print(str[-1])
 # left closed and right away
 print(str[6:-1])

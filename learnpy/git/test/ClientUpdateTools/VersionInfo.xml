@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versionInfo>
+	<ClientModule1 Version="0"/>
+	<ClientVersion Version="0"/>
+	<ServerInfo>
+		<!-- work on sjf-cpgmsa10 -->
+		<ServerIp>10.210.172.104</ServerIp>
+		<!-- test on shsirdlnx2 -->
+		<!-- <ServerIp>10.134.176.64</ServerIp> -->
+		<ServerPort>6000</ServerPort>
+		<XmlLocalPath>default</XmlLocalPath>
+	</ServerInfo>
+	<regressiontest Version="0">
+	</regressiontest>
+</versionInfo>

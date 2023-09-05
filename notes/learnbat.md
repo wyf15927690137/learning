@@ -16,3 +16,15 @@ net use U: \\sjclapa09-p4\sigrity_fort07\PVTS
 net use U: /delete
 ```
 
+clear
+
+```
+cls
+```
+
+set
+
+```
+set PATH=D:\Files\Python3\Python-3.7.9;%PATH%
+```
+

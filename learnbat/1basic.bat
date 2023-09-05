@@ -8,5 +8,13 @@ echo %0
 echo %~dp0
 echo ---------------
 echo test2
-cd wy
+@REM cd wy
 echo test3
+
+@REM timeout 5
+
+echo test4
+echo %errorlevel%
+fas
+if "%errorlevel%" neq "0" EXIT /B 1
+echo 11

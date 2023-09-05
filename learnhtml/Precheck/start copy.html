@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+    <head>
+      <meta charset="utf-8">
+      <title>Check Your Chanelist</title>
+      <style>
+        form {
+          width: 450px;
+        }
+        div {
+          margin-bottom: 20px;
+        }
+        label {
+          display: inline-block;
+          width: 240px;
+          text-align: right;
+          padding-right: 10px;
+        }
+        button, input {
+          float: right;
+        }
+      </style>
+    </head>
+    <body>
+      <form method="post" action="https://shsirdlnx2:5050/checkChangelist">
+        <div>
+          <label for="username">username</label>
+          <input name="username" id="username" value="nali">
+        </div>
+        <div>
+          <label for="changelist">changelist</label>
+          <input name="changelist" id="changelist" value="152172">
+        </div>
+        <div>
+          <label for="p4port">p4port</label>
+          <input name="p4port" id="p4port" value="ssl:p4broker1:1660">
+        </div>
+        <div>
+          <button>Check Your Changelist</button>
+        </div>
+      </form>
+    </body>
+  </html>

@@ -1,0 +1,14 @@
+                                                  Step                             Arguments  Unnamed: 2  Unnamed: 3  Status
+0           Start of Pipeline - (1 hr 59 min in block)                                   NaN         NaN         NaN     NaN
+1       Allocate node : Start - (1 hr 59 min in block)                               SigCICD         NaN         NaN     NaN
+2    Allocate node : Body : Start - (1 hr 29 min in...                                   NaN         NaN         NaN     NaN
+3                       Print Message - (2 ms in self)                 branch is main_in_one         NaN         NaN     NaN
+4    Allocate workspace : Start - (1 hr 29 min in b...                 /data/Automation/main         NaN         NaN     NaN
+..                                                 ...                                   ...         ...         ...     ...
+238                     Print Message - (6 ms in self)                               Success         NaN         NaN     NaN
+239                Extended Email - (0.13 sec in self)                                   NaN         NaN         NaN     NaN
+240                   Stage : Start - (18 ms in block)                               Cleanup         NaN         NaN     NaN
+241                          Cleanup - (9 ms in block)                                   NaN         NaN         NaN     NaN
+242                     Print Message - (2 ms in self)  ProductPath is /data/Automation/main         NaN         NaN     NaN
+
+[243 rows x 5 columns]

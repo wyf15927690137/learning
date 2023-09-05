@@ -1,7 +1,5 @@
-import imp
 import sys
 from time import sleep
-import requests
 print('this is a test file')
 print('this is the second line from cloud')
 print('this is the second line from cloud1')
@@ -9,7 +7,10 @@ print('this is the third line from Local')
 print('this is the third line from Local1')
 sleep(2)
 s1 = sys.argv[1]
-s2 = sys.argv[2]
+try:
+    s2 = sys.argv[2]
+except IndexError:
+    print("there is no second parameter")
 s3 = sys.argv[3]
 sys.argv.append("Lux")
 print(sys.argv[0])  # return current file path

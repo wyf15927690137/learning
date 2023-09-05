@@ -1,5 +1,8 @@
 @REM copy files from ./Test1  to ./Test2
 @echo off
+@REM /S : subfolders
+@REM /MIR : mirror the folder tree
+@REM /NDL : no dir logging
 robocopy /S ./Test1 ./Test2 /MIR /NDL
 robocopy /S ./Test1 ./Test2 /MIR /NDL
 

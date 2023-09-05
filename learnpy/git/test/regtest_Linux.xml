@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<CustomToolDefList varName="customtooldeflist">
+ <CustomToolDef>
+  <Definition>
+   <Name>Linux Build and Regression</Name>
+   <Command>bash</Command>
+   <Arguments>start.sh  -c %C -u $u</Arguments>
+   <Shortcut></Shortcut>
+   <InitDir>/home/tianzuoz/regressiontest-master</InitDir>
+  </Definition>
+  <Console>
+   <CloseOnExit>true</CloseOnExit>
+  </Console>
+  <AddToContext>true</AddToContext>
+  <Refresh>true</Refresh>
+  <IgnoreP4Config>true</IgnoreP4Config>
+ </CustomToolDef>
+</CustomToolDefList>

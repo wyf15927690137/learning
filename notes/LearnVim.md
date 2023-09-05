@@ -48,3 +48,32 @@ replace:
 
 ```
 
+how to use vim register:
+
+```
+V mod choose the text
+"ay  : copy the chosed text into register a
+:reg     : view the content of registers
+
+"ap   : paste the text in register a
+
+
+# use register in interactive are
+ctrl+r a  : paste the text in register a into the interactive area
+```
+
+replace:
+
+```
+:[range]s/{pattern}/{string}/[flags] [count]
+https://linuxize.com/post/vim-find-replace/
+# replace the first one
+:s/foo/bar/
+:s/foo/bar/g
+:s/foo/bar/gc
+# use % to replace all in the entire file
+:%s/^foo.*/Vim is the best/gc
+:3,10s/foo/bar/g
+
+```
+

@@ -1,0 +1,2 @@
+D:\Precheck_Local\PC-DT-YANFEI\sigrity\main\tests\post_regression\translator\odb\spdif_all_odb\env.sh
+D:\Precheck_Local\PC-DT-YANFEI\sigrity\main\tests\post_regression\translator\pads\TCC8002_TEM_CELL_V1_4_3\env.sh

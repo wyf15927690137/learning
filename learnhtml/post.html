@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+    <head>
+      <meta charset="utf-8">
+      <title>Start to run PreCheck</title>
+      <style>
+        form {
+          width: 450px;
+        }
+
+        div {
+          margin-bottom: 20px;
+        }
+
+        label {
+          display: inline-block;
+          width: 240px;
+          text-align: right;
+          padding-right: 10px;
+        }
+
+        button, input {
+          float: right;
+        }
+      </style>
+    </head>
+    <body>
+      <form method="post" action="https://shsirdlnx2:5050/hello">
+        <div>
+          <label for="username">username</label>
+          <input name="username" id="username" value="yanfeiw">
+        </div>
+        <div>
+          <label for="changelist">changelist</label>
+          <input name="changelist" id="changelist" value="2121341">
+        </div>
+        <div>
+          <button>Run PreCheck</button>
+        </div>
+      </form>
+    </body>
+  </html>

@@ -86,7 +86,7 @@ branch：
 
 local branch:
 
-```
+```sh
 git branch branch01
 git checkout branch01
 git checkout -b branch01
@@ -95,7 +95,7 @@ git branch -d branch01
 
 remote branch
 
-```
+```sh
 git checkout -b local_branch
 git ad .
 git cm -m "init remote_branch"
@@ -147,7 +147,129 @@ git delete local ad and commit
 git reset HEAD^
 ```
 
+bash file returns unexpected token `$'do\r''
+
 ```
-git config --global core.autocrlf true
+git config --global core.autocrlf false
+dos2Unix ExtendTimeOut.sh
+```
+
+
+
+create a remote repo
+
+```
+git init
+git remote add testgit git@github.com:wyf15927690137/testgit.git
+git push --set-upstream testgit master
+```
+
+```
+git reset --hard commit_id 
+```
+
+git merge:
+
+```sh
+# merge YanfeiTest branch into master branch
+git checkout master
+# start merge local
+git merge origin/YanfeiTest
+# push to remote
+git push
+# clone specify the target location
+git clone git@github.com:wyf15927690137/testgit.git /data/user/yanfei
+
+# diff two branch
+git diff mainYanfeiTest..master
+
+
+# create a branch from a previous commit on an existing branch
+git branch <branch_name> <commit_id>
+# create <branch2> from <branch1>
+git checkout -b <branch2> <branch1>
+
+# diff two file of two different commit
+git diff <revision_1>:<file_1> <revision_2>:<file_2>
+```
+
+git clean
+
+```
+git clean -d -f 
+```
+
+git stash
+
+```
+git st
+git stash
+git pull
+git stash show
+git stash apply (resolve conflicts)
+```
+
+git clean
+
+```
+# see which files will be deleted
+git clean -n
+
+# remove files and directory
+git clean -df
+```
+
+diff two commit
+
+```
+git diff commit1 commit2			
+```
+
+```
+git remote remove origin
+git remote add origin http://sigrity-lab.cadence.com/fidelity/containerbuilder.git
+git pull
+git remote -v
+```
+
+git set multi remote
+
+```
+git remote -vv
+
+# create a git repo at github.cadence.com
+git remote add cadence git@github.cadence.com:yanfeiw/Precheckin.git
+git remote -v
+git push -u cadence master
+```
+
+git deal with large file
+
+```
+git lfs install
+git lfs track "*.psd"
+git add .gitattributes
+
+
+git add file.psd
+git commit -m "Add design file"
+git push origin main
+```
+
+git http resource set no password auth:
+
+```
+git config --global credential.helper store
+git pull (with username and passwd for the first time)
+```
+
+```
+https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-in-git/
+
+ 
+
+Setting	        		Repo (check-in)			Working Tree (checkout)
+core.autocrlf=true			LF						CRLF
+core.autocrlf=input			LF						original (usually LF, or CRLF if you're viewing a file you created on Windows)
 ```
 

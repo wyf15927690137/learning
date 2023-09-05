@@ -1,0 +1,9 @@
+D:\Precheck_Local\PC-DT-YANFEI\sigrity\main\tests\unit_tests\pwt
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\dcdc_component
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\MB_build_google
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\InitialSetup\ComponentTypeIdentify\capacitor
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\Extraction_setup\Starting_component_settings\add_start_comp\sensePosNeg
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\parser\from_netlist\1924567_DoubleQuotationInProperty
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\parser\from_packaged\1947421_DoubleQuotationInProperty
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\parser\from_netlist\nokia_1787803
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\pwt\nightly\parser\from_netlist\nokia_CCR01714946

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versionInfo>
+	<ServerInfo>
+		<ServerIp>ipInfo</ServerIp>
+		<ServerPort>portInfo</ServerPort>
+		<XmlLocalPath>xmlInfo</XmlLocalPath>
+	</ServerInfo>
+	<testFolder Version="0"/>
+</versionInfo>

@@ -1,0 +1,1877 @@
+[2022-11-08T14:46:39.089Z] + chmod u+x /data/Automation/main/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+[2022-11-08T14:46:39.089Z] + /data/Automation/main/Install/cm/jenkins_utils/RunPVLinuxRegression.sh /data/Automation/main/LocalBuild/tools/bin /data/Automation/main/tests/unit_tests/trinity/splitted/part1 --root /data/Automation/main/LocalBuild
+[2022-11-08T14:46:39.089Z] xhost:  unable to open display ""
+[2022-11-08T14:46:39.089Z] <<Running dvAutoTest from /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1>>
+[2022-11-08T14:46:39.089Z] <<Started by svc_cicd on srv-sigreg-lx3 at Tue Nov  8 06:46:39 2022>>
+[2022-11-08T14:46:39.089Z] <<Prototype make: make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick>>
+[2022-11-08T14:46:39.089Z] 
+[2022-11-08T14:46:39.089Z] ./PBC_legacy_0phase: Ignored:  
+[2022-11-08T14:46:39.089Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:46:39.089Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:46:39.089Z] <<./58Dieblock_matfile started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:46:39 2022>>
+[2022-11-08T14:46:39.089Z] <<./58Dieblock_matfile started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:46:39 2022>>
+[2022-11-08T14:46:39.089Z] <<./58Dieblock_matfile started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:46:39 2022>>
+[2022-11-08T14:46:39.342Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:46:39.342Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output
+[2022-11-08T14:46:39.342Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output
+[2022-11-08T14:46:39.342Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output 
+[2022-11-08T14:46:39.342Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output 
+[2022-11-08T14:46:39.342Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 32 -mem 32
+[2022-11-08T14:46:39.342Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/env.sh; clarity_run.sh --design-name 58Dieblock_matfile.spd
+[2022-11-08T14:46:39.596Z] Clarity path is  /data/Automation/main/LocalBuild
+[2022-11-08T14:46:39.596Z] Clarity run program is  /data/Automation/main/LocalBuild/tools/bin/run_atlas_clarity.dev
+[2022-11-08T14:46:39.596Z] CLARITY_CONFIG file is  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/LOCAL_RUN_CONF
+[2022-11-08T14:46:39.596Z] Full file name: /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/58Dieblock_matfile.spd
+[2022-11-08T14:46:39.596Z] 
+[2022-11-08T14:46:39.596Z] /data/Automation/main/LocalBuild/tools/bin/clarity_run.sh: line 174: [: !=: unary operator expected
+[2022-11-08T14:46:39.596Z] Clarity path is  /data/Automation/main/LocalBuild
+[2022-11-08T14:46:39.596Z] Clarity run program is  /data/Automation/main/LocalBuild/tools/bin/run_atlas_clarity.dev
+[2022-11-08T14:46:39.596Z] CLARITY_CONFIG file is  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/LOCAL_RUN_CONF
+[2022-11-08T14:46:42.850Z] ARGS: NS(svcmaster_config=/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/LOCAL_RUN_CONF, write_state_file=None, other_json=None, manifest=None, web_port=None, command=['/scratch_ssd/Automation/main/LocalBuild/tools.lnx86/bin/run_atlas_clarity.py', '--proxy', '%PROXY%', '--run-dir', '/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output', '--design-name', '58Dieblock_matfile.spd', '--log-dir', '', '--level', '-1', '--init-mesh', 'true', '--final-only', 'false', '--resume', 'false'])
+[2022-11-08T14:46:42.850Z] Starting runloop
+[2022-11-08T14:46:42.850Z] <<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] Couldn't find file /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/58Dieblock_matfile_clarity_sim/58Dieblock_matfile.control.
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] ----------------------------Data service is enabled----------------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] -------------------------Start license checking program-------------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] ----------------------------Initializing simulation----------------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] Time elapsed for generating initial mesh: 0:0:3
+[2022-11-08T14:49:19.205Z] Initial mesh size: 12961
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] --------------------Call wave3d_engine for port information--------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] ---------------------Controller RAM usage: 0.036476 GBytes---------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] -----Current disk usage: 0.002873 GBytes used, 1369.703686 GBytes available-----
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] ----------------------------Run adaptive mesh begin----------------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] ---------------------------Running 1st mesh iteration---------------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:19.205Z] ---------------------Start 1st adaptive mesh for 10.000 GHz---------------------
+[2022-11-08T14:49:19.205Z] 
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] ---------------------Controller RAM usage: 0.036854 GBytes---------------------
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] -----Current disk usage: 0.002983 GBytes used, 1369.682686 GBytes available-----
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] -----------------Check adaptive mesh convergence at iteration 1-----------------
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] ----------------------Start mesh refinement at iteration 1----------------------
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.729Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T14:49:25.729Z] 
+[2022-11-08T14:49:25.983Z] 
+[2022-11-08T14:49:25.983Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:25.983Z] 
+[2022-11-08T14:49:25.983Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T14:49:25.983Z]    1       12961       84216   0.00000e+00        9.100e+02    6.73152e+00
+[2022-11-08T14:49:25.983Z] 
+[2022-11-08T14:49:25.983Z] ---------------------------Running 2nd mesh iteration---------------------------
+[2022-11-08T14:49:25.983Z] 
+[2022-11-08T14:49:25.983Z] 
+[2022-11-08T14:49:25.983Z] ---------------------Start 2nd adaptive mesh for 10.000 GHz---------------------
+[2022-11-08T14:49:25.983Z] 
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] ---------------------Controller RAM usage: 0.038067 GBytes---------------------
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] -----Current disk usage: 0.005661 GBytes used, 1369.547665 GBytes available-----
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] -----------------Check adaptive mesh convergence at iteration 2-----------------
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] ----------------------Start mesh refinement at iteration 2----------------------
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.056Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T14:49:34.056Z] 
+[2022-11-08T14:49:34.615Z] 
+[2022-11-08T14:49:34.615Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:34.615Z] 
+[2022-11-08T14:49:34.615Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T14:49:34.615Z]    1       12961       84216   0.00000e+00        9.100e+02    6.73152e+00
+[2022-11-08T14:49:34.615Z]    2       17040      109744   4.14538e-02        9.120e+02    8.55315e+00
+[2022-11-08T14:49:34.615Z] 
+[2022-11-08T14:49:34.615Z] ---------------------------Running 3rd mesh iteration---------------------------
+[2022-11-08T14:49:34.615Z] 
+[2022-11-08T14:49:34.615Z] 
+[2022-11-08T14:49:34.615Z] ---------------------Start 3rd adaptive mesh for 10.000 GHz---------------------
+[2022-11-08T14:49:34.615Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Controller RAM usage: 0.038368 GBytes---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] -----Current disk usage: 0.007068 GBytes used, 1369.482731 GBytes available-----
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] -----------------Check adaptive mesh convergence at iteration 3-----------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T14:49:46.791Z]    1       12961       84216   0.00000e+00        9.100e+02    6.73152e+00
+[2022-11-08T14:49:46.791Z]    2       17040      109744   4.14538e-02        9.120e+02    8.55315e+00
+[2022-11-08T14:49:46.791Z]    3       21746      139570   1.68818e-02        2.176e+03    1.12070e+01
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] --------------Total time elapsed for mesh iteration: 26.50 seconds--------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] -----------------------Adaptive mesh refinement finished-----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] Time elapsed for adaptive mesh: 0:0:26
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] -------------------------Adaptive frequency sweep begin-------------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] -------------------------Running AFS convergence check-------------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------------Converged percentage: 0 %---------------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Start to solve frequency 10.000 MHz ----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Start to solve frequency 120.000 MHz ---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Start to solve frequency 300.000 MHz ---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Start to solve frequency 600.000 MHz ---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Start to solve frequency 780.000 MHz ---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Start to solve frequency 2.040 GHz ----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Start to solve frequency 3.490 GHz ----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Start to solve frequency 5.300 GHz ----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Start to solve frequency 420.000 MHz ---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Start to solve frequency 6.740 GHz ----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Solving frequency 300.000 MHz started---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Solving frequency 600.000 MHz started---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Solving frequency 10.000 MHz started----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Solving frequency 780.000 MHz started---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Solving frequency 2.040 GHz started----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Solving frequency 120.000 MHz started---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Solving frequency 3.490 GHz started----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Solving frequency 5.300 GHz started----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ---------------------Solving frequency 420.000 MHz started---------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Solving frequency 6.740 GHz started----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Start to solve frequency 8.190 GHz ----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Start to solve frequency 10.000 GHz ----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Solving frequency 8.190 GHz started----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:46.791Z] ----------------------Solving frequency 10.000 GHz started----------------------
+[2022-11-08T14:49:46.791Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------End of solving frequency 3.490 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------Time elapsed for solving frequency 3.490 GHz : 11.89 seconds----------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------End of solving frequency 10.000 MHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------Time elapsed for solving frequency 10.000 MHz : 11.98 seconds---------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------End of solving frequency 2.040 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------Time elapsed for solving frequency 2.040 GHz : 11.98 seconds----------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------End of solving frequency 5.300 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------Time elapsed for solving frequency 5.300 GHz : 12.05 seconds----------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------------------End of solving frequency 120.000 MHz ---------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------Time elapsed for solving frequency 120.000 MHz : 12.28 seconds---------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------End of solving frequency 8.190 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------Time elapsed for solving frequency 8.190 GHz : 12.26 seconds----------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------------------End of solving frequency 600.000 MHz ---------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------Time elapsed for solving frequency 600.000 MHz : 12.32 seconds---------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------End of solving frequency 10.000 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------Time elapsed for solving frequency 10.000 GHz : 12.49 seconds---------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------------------End of solving frequency 780.000 MHz ---------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------Time elapsed for solving frequency 780.000 MHz : 12.62 seconds---------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------End of solving frequency 6.740 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------Time elapsed for solving frequency 6.740 GHz : 12.65 seconds----------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------------------End of solving frequency 420.000 MHz ---------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------Time elapsed for solving frequency 420.000 MHz : 12.69 seconds---------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------------------Controller RAM usage: 0.041462 GBytes---------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----Current disk usage: 0.004820 GBytes used, 1369.390923 GBytes available-----
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------------------End of solving frequency 300.000 MHz ---------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------Time elapsed for solving frequency 300.000 MHz : 12.82 seconds---------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -------------------------Running AFS convergence check-------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ---------------------------Converged percentage: 6 %---------------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Start to solve frequency 2.400 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Solving frequency 2.400 GHz started----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Start to solve frequency 2.760 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Start to solve frequency 3.130 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Start to solve frequency 4.210 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Solving frequency 2.760 GHz started----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Start to solve frequency 3.850 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Start to solve frequency 4.930 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Start to solve frequency 4.570 GHz ----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Solving frequency 4.210 GHz started----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Solving frequency 3.130 GHz started----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Solving frequency 3.850 GHz started----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Solving frequency 4.930 GHz started----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:49:59.081Z] ----------------------Solving frequency 4.570 GHz started----------------------
+[2022-11-08T14:49:59.081Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------------End of solving frequency 2.760 GHz ----------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------Time elapsed for solving frequency 2.760 GHz : 10.37 seconds----------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------------End of solving frequency 3.850 GHz ----------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------Time elapsed for solving frequency 3.850 GHz : 10.66 seconds----------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------------End of solving frequency 3.130 GHz ----------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------Time elapsed for solving frequency 3.130 GHz : 10.79 seconds----------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------------End of solving frequency 4.210 GHz ----------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------Time elapsed for solving frequency 4.210 GHz : 10.84 seconds----------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ---------------------Controller RAM usage: 0.041664 GBytes---------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----Current disk usage: 0.005033 GBytes used, 1369.276867 GBytes available-----
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------------End of solving frequency 2.400 GHz ----------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------Time elapsed for solving frequency 2.400 GHz : 10.88 seconds----------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------------End of solving frequency 4.570 GHz ----------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------Time elapsed for solving frequency 4.570 GHz : 10.97 seconds----------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------------End of solving frequency 4.930 GHz ----------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------Time elapsed for solving frequency 4.930 GHz : 10.99 seconds----------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -------------------------Running AFS convergence check-------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] --------------------------Converged percentage: 100 %--------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] --------------------------Adaptive frequency sweep end--------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ---------------Time elapsed for high frequency simulation: 0:0:24---------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ----------------Time elapsed for low frequency simulation: 0:0:0----------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -------------------Time elapsed for final simulation: 0:0:24-------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ---------------------Controller RAM usage: 0.042027 GBytes---------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----Current disk usage: 0.005730 GBytes used, 1369.276169 GBytes available-----
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ---------------------------Cleanup intermediate files---------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ------------------Post-simulation disk usage: 0.005452 GBytes------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] --------------------------------Release license--------------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] -------------------------License checking process exit-------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] ------------------------------Simulation succeeded------------------------------
+[2022-11-08T14:50:11.227Z] 
+[2022-11-08T14:50:11.227Z] <<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<
+[2022-11-08T14:50:15.420Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/env.sh; clarity_clear.sh -y
+[2022-11-08T14:50:15.420Z] 
+[2022-11-08T14:50:15.420Z] Deleting all the intermediate files in the current directory and sub directories ...
+[2022-11-08T14:50:15.420Z] 
+[2022-11-08T14:50:15.420Z] find: ‘./atlas_launch-221108-064640.015’: No such file or directory
+[2022-11-08T14:50:15.420Z] # Check if squish run into problem
+[2022-11-08T14:50:15.420Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/golden/58Dieblock_matfile_FIT.S4P 58Dieblock_matfile_FIT.S4P 500 0.04 1
+[2022-11-08T14:50:15.420Z] ############### in compare #####################
+[2022-11-08T14:50:15.420Z] No differences.
+[2022-11-08T14:50:15.420Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output
+[2022-11-08T14:50:15.675Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output; chmod -R 774 .
+[2022-11-08T14:50:15.675Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/*.diff;
+[2022-11-08T14:50:15.675Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/*.error;
+[2022-11-08T14:50:15.675Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/58Dieblock_matfile/lnx86_output/compare.done
+[2022-11-08T14:50:15.675Z] PASSED
+[2022-11-08T14:50:15.675Z] ./58Dieblock_matfile  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:50:15 2022
+[2022-11-08T14:50:15.675Z] 
+[2022-11-08T14:50:15.675Z] ./Lmesh_test2: Ignored: NONE
+[2022-11-08T14:50:15.675Z] 
+[2022-11-08T14:50:15.675Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:50:15.675Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:50:15.675Z] <<./one_trace_low_freq_solution_CCMRP02620552 started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:15 2022>>
+[2022-11-08T14:50:15.675Z] <<./one_trace_low_freq_solution_CCMRP02620552 started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:15 2022>>
+[2022-11-08T14:50:15.675Z] <<./one_trace_low_freq_solution_CCMRP02620552 started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:15 2022>>
+[2022-11-08T14:50:15.675Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:50:15.675Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output
+[2022-11-08T14:50:15.675Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output
+[2022-11-08T14:50:15.675Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output 
+[2022-11-08T14:50:15.675Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output 
+[2022-11-08T14:50:15.675Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 4 -mem 4
+[2022-11-08T14:50:15.675Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/LOCAL_RUN_CONF /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/one_trace.config
+[2022-11-08T14:50:15.675Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/env.sh; clarity3dlayout -b -NoUI /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/one_trace.spd
+[2022-11-08T14:50:54.307Z] make: [run_test] Error 254 (ignored)
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/one_trace_table_summary*.log /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/Summary.log
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/one_trace_clarity_sim/l3d_project/one_trace.S2P /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/l3d_one_trace.S2P
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/golden/one_trace.S2P one_trace.S2P 500 0.2 1
+[2022-11-08T14:50:54.307Z] ############### in compare #####################
+[2022-11-08T14:50:54.307Z] No differences.
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/golden/l3d_one_trace.S2P l3d_one_trace.S2P 500 0.2 1
+[2022-11-08T14:50:54.307Z] ############### in compare #####################
+[2022-11-08T14:50:54.307Z] No differences.
+[2022-11-08T14:50:54.307Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output; chmod -R 777 .
+[2022-11-08T14:50:54.307Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/*.diff;
+[2022-11-08T14:50:54.307Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/*.error;
+[2022-11-08T14:50:54.307Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/one_trace_low_freq_solution_CCMRP02620552/lnx86_output/compare.done
+[2022-11-08T14:50:54.307Z] PASSED
+[2022-11-08T14:50:54.307Z] ./one_trace_low_freq_solution_CCMRP02620552  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:50:48 2022
+[2022-11-08T14:50:54.307Z] 
+[2022-11-08T14:50:54.307Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:50:54.307Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:50:54.307Z] <<./Fill_in_multiple_solution_frequency_crash started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:48 2022>>
+[2022-11-08T14:50:54.307Z] <<./Fill_in_multiple_solution_frequency_crash started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:48 2022>>
+[2022-11-08T14:50:54.307Z] <<./Fill_in_multiple_solution_frequency_crash started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:48 2022>>
+[2022-11-08T14:50:54.307Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:50:54.307Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output
+[2022-11-08T14:50:54.307Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output 
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output 
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/env.sh; clarity3dlayout -b -NoUI -tcl test.tcl
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep_block.pl -file test_save.spd -begin '\* Frequency Sweeping description lines' -end '\.SolutionFrequency'
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/golden/test_save.spd test_save.spd
+[2022-11-08T14:50:54.307Z] ############### in compare #####################
+[2022-11-08T14:50:54.307Z] No differences.
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output; chmod -R 774 .mw
+[2022-11-08T14:50:54.307Z] chmod: cannot access ‘.mw’: No such file or directory
+[2022-11-08T14:50:54.307Z] make: [verify] Error 1 (ignored)
+[2022-11-08T14:50:54.307Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output/*.diff;
+[2022-11-08T14:50:54.307Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output/*.error;
+[2022-11-08T14:50:54.307Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Fill_in_multiple_solution_frequency_crash/lnx86_output/compare.done
+[2022-11-08T14:50:54.307Z] PASSED
+[2022-11-08T14:50:54.307Z] ./Fill_in_multiple_solution_frequency_crash  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:50:50 2022
+[2022-11-08T14:50:54.307Z] 
+[2022-11-08T14:50:54.307Z] ./alone_irregulr_wp_xmesh_2d3dfield: Ignored
+[2022-11-08T14:50:54.307Z] 
+[2022-11-08T14:50:54.307Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:50:54.307Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:50:54.307Z] <<./magnetic_pwl_discrete_legacy started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:50 2022>>
+[2022-11-08T14:50:54.307Z] <<./magnetic_pwl_discrete_legacy started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:50 2022>>
+[2022-11-08T14:50:54.307Z] <<./magnetic_pwl_discrete_legacy started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:50:50 2022>>
+[2022-11-08T14:50:54.307Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:50:54.307Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output
+[2022-11-08T14:50:54.307Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output 
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output 
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 32 -mem 32
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/LOCAL_RUN_CONF /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/one_via.config
+[2022-11-08T14:50:54.307Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/env.sh; clarity3dlayout -b -NoUI /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/one_via.spd
+[2022-11-08T14:52:30.700Z] make: [run_test] Error 254 (ignored)
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/one_via_table_summary*.log /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/Summary.log
+[2022-11-08T14:52:30.700Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/strip.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/one_via.S1P  '^!'
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/one_via_clarity_*.log /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/one_via_clarity.log	 
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/golden/one_via.S1P one_via.S1P 500 0.02 1
+[2022-11-08T14:52:30.700Z] ############### in compare #####################
+[2022-11-08T14:52:30.700Z] No differences.
+[2022-11-08T14:52:30.700Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output; chmod -R 777 .
+[2022-11-08T14:52:30.700Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/*.diff;
+[2022-11-08T14:52:30.700Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/*.error;
+[2022-11-08T14:52:30.700Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/magnetic_pwl_discrete_legacy/lnx86_output/compare.done
+[2022-11-08T14:52:30.700Z] PASSED
+[2022-11-08T14:52:30.700Z] ./magnetic_pwl_discrete_legacy  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:52:22 2022
+[2022-11-08T14:52:30.700Z] 
+[2022-11-08T14:52:30.700Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:52:30.700Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:52:30.700Z] <<./TempMapping_FiberWeave_Dmesh started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:52:22 2022>>
+[2022-11-08T14:52:30.700Z] <<./TempMapping_FiberWeave_Dmesh started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:52:22 2022>>
+[2022-11-08T14:52:30.700Z] <<./TempMapping_FiberWeave_Dmesh started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:52:22 2022>>
+[2022-11-08T14:52:30.700Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:52:30.700Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output
+[2022-11-08T14:52:30.700Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output 
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output 
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 32 -mem 32
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output/LOCAL_RUN_CONF /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output/FiberWeave_tempmat.config
+[2022-11-08T14:52:30.700Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/env.sh; clarity3dlayout -b -NoUI /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output/FiberWeave_tempmat.spd
+[2022-11-08T14:55:22.089Z] make: [run_test] Error 254 (ignored)
+[2022-11-08T14:55:22.089Z] # Check if squish run into problem
+[2022-11-08T14:55:22.089Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/golden/FiberWeave_tempmat_FIT.S4P FiberWeave_tempmat_FIT.S4P 500 0.04 1
+[2022-11-08T14:55:22.089Z] ############### in compare #####################
+[2022-11-08T14:55:22.089Z] No differences.
+[2022-11-08T14:55:22.089Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output
+[2022-11-08T14:55:22.089Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output; chmod -R 774 .
+[2022-11-08T14:55:22.089Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output/*.diff;
+[2022-11-08T14:55:22.089Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output/*.error;
+[2022-11-08T14:55:22.089Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/TempMapping_FiberWeave_Dmesh/lnx86_output/compare.done
+[2022-11-08T14:55:22.089Z] PASSED
+[2022-11-08T14:55:22.089Z] ./TempMapping_FiberWeave_Dmesh  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:55:18 2022
+[2022-11-08T14:55:22.089Z] 
+[2022-11-08T14:55:22.089Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:55:22.089Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:55:22.089Z] <<./CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:55:18 2022>>
+[2022-11-08T14:55:22.089Z] <<./CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:55:18 2022>>
+[2022-11-08T14:55:22.089Z] <<./CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:55:18 2022>>
+[2022-11-08T14:55:22.089Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:55:22.089Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output
+[2022-11-08T14:55:22.089Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output
+[2022-11-08T14:55:22.089Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output 
+[2022-11-08T14:55:22.089Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output 
+[2022-11-08T14:55:22.089Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -type bsub -queue lnx64 -time 12 -cpus 4 -cpus_t 32
+[2022-11-08T14:55:22.090Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 32 -mem 32
+[2022-11-08T14:55:22.090Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/env.sh; clarity3dlayout -PSClarity_3DSolverG -tcl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output/test.tcl -NoUI
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/env.sh; clarity3dworkbench -PSClarity_3DSolverG -tcl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output/test_3dworkbench.tcl
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/env.sh; clarity_run.sh --design-name coupler_test1_deEmbedding.spdx
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/env.sh; clarity_clear.sh -y
+[2022-11-08T14:57:13.437Z] 
+[2022-11-08T14:57:13.437Z] ***** Begin Analyze Section *****
+[2022-11-08T14:57:13.437Z] # Check if squish run into problem
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; cp -R -L coupler_deembedded.S5P coupler_deembedded_header.txt
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep.pl coupler_deembedded_header.txt 'GNDNET' 'NETSLIST'
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; perl -i.bak -p -e 's#/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output#RESULTS#' coupler_test1_deEmbedding_3DEM.status
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep.pl coupler_test1_deEmbedding_3dworkbench_3DEM.status 'S_File'
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; perl -i.bak -p -e 's#/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output#RESULTS#' coupler_test1_deEmbedding_3dworkbench_3DEM.status
+[2022-11-08T14:57:13.437Z] ***** End Analyze Section *****
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/golden/coupler.S5P coupler.S5P 500 0.02 1
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/golden/coupler_deembedded.S5P coupler_deembedded.S5P 500 0.02 1
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/golden/coupler_deembedded_header.txt coupler_deembedded_header.txt
+[2022-11-08T14:57:13.437Z] ############### in compare #####################
+[2022-11-08T14:57:13.437Z] No differences.
+[2022-11-08T14:57:13.437Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/golden/coupler_test1_deEmbedding_3dworkbench_3DEM.status coupler_test1_deEmbedding_3dworkbench_3DEM.status
+[2022-11-08T14:57:13.437Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output; chmod -R 777 .
+[2022-11-08T14:57:13.437Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output/*.diff;
+[2022-11-08T14:57:13.437Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output/*.error;
+[2022-11-08T14:57:13.437Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin/lnx86_output/compare.done
+[2022-11-08T14:57:13.437Z] PASSED
+[2022-11-08T14:57:13.437Z] ./CCMPR02507989_clf_incorrect_deembeding_snp_header_precheckin  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:56:58 2022
+[2022-11-08T14:57:13.437Z] 
+[2022-11-08T14:57:13.437Z] ./Lmesh_medium: Ignored
+[2022-11-08T14:57:13.437Z] 
+[2022-11-08T14:57:13.437Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:57:13.437Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:57:13.437Z] <<./CCR2399781_SMD_misaligned started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:56:58 2022>>
+[2022-11-08T14:57:13.437Z] <<./CCR2399781_SMD_misaligned started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:56:58 2022>>
+[2022-11-08T14:57:13.437Z] <<./CCR2399781_SMD_misaligned started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:56:58 2022>>
+[2022-11-08T14:57:13.437Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:57:13.437Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output
+[2022-11-08T14:57:13.437Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output 
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output 
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 8 -mem 8
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/env.sh; clarity3dlayout -b -NoUI -tcl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output/test.tcl
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep.pl model_CCR2399781.spd 'PGND'
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep.pl model_CCR2399781.spd 'TOP'
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/diff_cmp /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/golden/model_CCR2399781.spd model_CCR2399781.spd
+[2022-11-08T14:57:13.437Z] ############### in compare #####################
+[2022-11-08T14:57:13.437Z] (diff_cmp) performing diff: diff  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/golden/model_CCR2399781.spd model_CCR2399781.spd >model_CCR2399781.spd.diff
+[2022-11-08T14:57:13.437Z] No differences.
+[2022-11-08T14:57:13.437Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output; chmod -R 777 .
+[2022-11-08T14:57:13.437Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output/*.diff;
+[2022-11-08T14:57:13.437Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output/*.error;
+[2022-11-08T14:57:13.437Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_SMD_misaligned/lnx86_output/compare.done
+[2022-11-08T14:57:13.437Z] PASSED
+[2022-11-08T14:57:13.437Z] ./CCR2399781_SMD_misaligned  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:57:02 2022
+[2022-11-08T14:57:13.437Z] 
+[2022-11-08T14:57:13.437Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:57:13.437Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:57:13.437Z] <<./CCR2399781_Subparts_SMD_connector_misaligned started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:57:02 2022>>
+[2022-11-08T14:57:13.437Z] <<./CCR2399781_Subparts_SMD_connector_misaligned started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:57:02 2022>>
+[2022-11-08T14:57:13.437Z] <<./CCR2399781_Subparts_SMD_connector_misaligned started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:57:02 2022>>
+[2022-11-08T14:57:13.437Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:57:13.437Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output
+[2022-11-08T14:57:13.437Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output 
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output 
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 32 -mem 32
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/env.sh; clarity3dlayout -b  -NoUI -tcl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output/test.tcl
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep.pl model_CCR2399781.spd 'PGND'
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep.pl model_CCR2399781.spd 'TOP'
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/diff_cmp /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/golden/model_CCR2399781.spd model_CCR2399781.spd
+[2022-11-08T14:57:13.437Z] ############### in compare #####################
+[2022-11-08T14:57:13.437Z] (diff_cmp) performing diff: diff  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/golden/model_CCR2399781.spd model_CCR2399781.spd >model_CCR2399781.spd.diff
+[2022-11-08T14:57:13.437Z] No differences.
+[2022-11-08T14:57:13.437Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output; chmod -R 777 .
+[2022-11-08T14:57:13.437Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output/*.diff;
+[2022-11-08T14:57:13.437Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output/*.error;
+[2022-11-08T14:57:13.437Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCR2399781_Subparts_SMD_connector_misaligned/lnx86_output/compare.done
+[2022-11-08T14:57:13.437Z] PASSED
+[2022-11-08T14:57:13.437Z] ./CCR2399781_Subparts_SMD_connector_misaligned  PASSED on srv-sigreg-lx3 at Tue Nov  8 06:57:06 2022
+[2022-11-08T14:57:13.437Z] 
+[2022-11-08T14:57:13.437Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:57:13.437Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T14:57:13.437Z] <<./0_metal_Z_location started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:57:06 2022>>
+[2022-11-08T14:57:13.437Z] <<./0_metal_Z_location started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:57:06 2022>>
+[2022-11-08T14:57:13.437Z] <<./0_metal_Z_location started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 06:57:06 2022>>
+[2022-11-08T14:57:13.437Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T14:57:13.437Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output
+[2022-11-08T14:57:13.437Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output 
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output 
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output;  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/auto_survey.sh 
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output;  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/dpchosts.sh 
+[2022-11-08T14:57:13.437Z] /home/svc_cicd/.ssh
+[2022-11-08T14:57:13.437Z] Folder /home/svc_cicd/.ssh exist
+[2022-11-08T14:57:13.437Z] # srv-sigreg-lx3:22 SSH-2.0-OpenSSH_7.4
+[2022-11-08T14:57:13.437Z] # srv-sigreg-lx3:22 SSH-2.0-OpenSSH_7.4
+[2022-11-08T14:57:13.437Z] /home/svc_cicd/.ssh/known_hosts
+[2022-11-08T14:57:13.437Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/runCase.sh
+[2022-11-08T14:57:13.437Z] Project name is /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/0_metal_Z_location.spd
+[2022-11-08T14:57:13.437Z] Clarity path is  /data/Automation/main/LocalBuild
+[2022-11-08T14:57:13.437Z] Clarity run program is  /data/Automation/main/LocalBuild/tools/bin/run_atlas_clarity.dev
+[2022-11-08T14:57:13.437Z] CLARITY_CONFIG file is  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/LOCAL_RUN_CONF
+[2022-11-08T14:57:13.437Z] ARGS: NS(svcmaster_config=/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/LOCAL_RUN_CONF, write_state_file=None, other_json=None, manifest=None, web_port=None, command=['/scratch_ssd/Automation/main/LocalBuild/tools.lnx86/bin/run_atlas_clarity.py', '--proxy', '%PROXY%', '--run-dir', '/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output', '--design-name', '0_metal_Z_location.spd'])
+[2022-11-08T14:57:13.437Z] Starting runloop
+[2022-11-08T14:57:13.437Z] <<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] Couldn't find file /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/0_metal_Z_location_clarity_sim/0_metal_Z_location.control.
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ----------------------------Data service is enabled----------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -------------------------Start license checking program-------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ----------------------------Initializing simulation----------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] Time elapsed for generating initial mesh: 0:0:1
+[2022-11-08T14:59:49.819Z] Initial mesh size: 5599
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] --------------------Call wave3d_engine for port information--------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ---------------------Controller RAM usage: 0.034168 GBytes---------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -----Current disk usage: 0.001206 GBytes used, 1365.329422 GBytes available-----
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ----------------------------Run adaptive mesh begin----------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ---------------------------Running 1st mesh iteration---------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ---------------------Start 1st adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ---------------------Controller RAM usage: 0.034321 GBytes---------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -----Current disk usage: 0.001243 GBytes used, 1365.327652 GBytes available-----
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -----------------Check adaptive mesh convergence at iteration 1-----------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ----------------------Start mesh refinement at iteration 1----------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T14:59:49.819Z]    1        5599       36564   0.00000e+00        7.150e+02    5.06656e+00
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ---------------------------Running 2nd mesh iteration---------------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:49.819Z] ---------------------Start 2nd adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T14:59:49.819Z] 
+[2022-11-08T14:59:53.080Z] 
+[2022-11-08T14:59:53.080Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:59:53.080Z] 
+[2022-11-08T14:59:53.080Z] 
+[2022-11-08T14:59:53.080Z] ---------------------Controller RAM usage: 0.035717 GBytes---------------------
+[2022-11-08T14:59:53.080Z] 
+[2022-11-08T14:59:53.080Z] 
+[2022-11-08T14:59:53.080Z] -----Current disk usage: 0.002226 GBytes used, 1365.279823 GBytes available-----
+[2022-11-08T14:59:53.080Z] 
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.439Z] -----------------Check adaptive mesh convergence at iteration 2-----------------
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.439Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.439Z] ----------------------Start mesh refinement at iteration 2----------------------
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.439Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T14:59:54.439Z] 
+[2022-11-08T14:59:54.693Z] 
+[2022-11-08T14:59:54.693Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T14:59:54.693Z] 
+[2022-11-08T14:59:54.693Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T14:59:54.693Z]    1        5599       36564   0.00000e+00        7.150e+02    5.06656e+00
+[2022-11-08T14:59:54.693Z]    2        6913       44874   1.07414e-03        8.860e+02    6.36679e+00
+[2022-11-08T14:59:54.693Z] 
+[2022-11-08T14:59:54.693Z] ---------------------------Running 3rd mesh iteration---------------------------
+[2022-11-08T14:59:54.693Z] 
+[2022-11-08T14:59:54.693Z] 
+[2022-11-08T14:59:54.693Z] ---------------------Start 3rd adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T14:59:54.693Z] 
+[2022-11-08T15:00:01.238Z] 
+[2022-11-08T15:00:01.238Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:01.238Z] 
+[2022-11-08T15:00:01.238Z] 
+[2022-11-08T15:00:01.238Z] ---------------------Controller RAM usage: 0.035782 GBytes---------------------
+[2022-11-08T15:00:01.238Z] 
+[2022-11-08T15:00:01.238Z] 
+[2022-11-08T15:00:01.238Z] -----Current disk usage: 0.002617 GBytes used, 1365.250740 GBytes available-----
+[2022-11-08T15:00:01.238Z] 
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:01.798Z] -----------------Check adaptive mesh convergence at iteration 3-----------------
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:01.798Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:01.798Z] ----------------------Start mesh refinement at iteration 3----------------------
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:01.798Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T15:00:01.798Z] 
+[2022-11-08T15:00:02.722Z] 
+[2022-11-08T15:00:02.722Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:02.722Z] 
+[2022-11-08T15:00:02.722Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T15:00:02.722Z]    1        5599       36564   0.00000e+00        7.150e+02    5.06656e+00
+[2022-11-08T15:00:02.722Z]    2        6913       44874   1.07414e-03        8.860e+02    6.36679e+00
+[2022-11-08T15:00:02.722Z]    3        8184       52950   2.26016e-03        1.070e+03    7.89344e+00
+[2022-11-08T15:00:02.722Z] 
+[2022-11-08T15:00:02.722Z] ---------------------------Running 4th mesh iteration---------------------------
+[2022-11-08T15:00:02.722Z] 
+[2022-11-08T15:00:02.722Z] 
+[2022-11-08T15:00:02.722Z] ---------------------Start 4th adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T15:00:02.722Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] ---------------------Controller RAM usage: 0.035835 GBytes---------------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] -----Current disk usage: 0.003068 GBytes used, 1365.249611 GBytes available-----
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] -----------------Check adaptive mesh convergence at iteration 4-----------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] ----------------------Start mesh refinement at iteration 4----------------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T15:00:10.792Z]    1        5599       36564   0.00000e+00        7.150e+02    5.06656e+00
+[2022-11-08T15:00:10.792Z]    2        6913       44874   1.07414e-03        8.860e+02    6.36679e+00
+[2022-11-08T15:00:10.792Z]    3        8184       52950   2.26016e-03        1.070e+03    7.89344e+00
+[2022-11-08T15:00:10.792Z]    4        9714       62724   2.95269e-03        1.270e+03    7.64583e+00
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] ---------------------------Running 5th mesh iteration---------------------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:10.792Z] ---------------------Start 5th adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T15:00:10.792Z] 
+[2022-11-08T15:00:18.860Z] 
+[2022-11-08T15:00:18.860Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:18.860Z] 
+[2022-11-08T15:00:18.860Z] 
+[2022-11-08T15:00:18.860Z] ---------------------Controller RAM usage: 0.036083 GBytes---------------------
+[2022-11-08T15:00:18.860Z] 
+[2022-11-08T15:00:18.860Z] 
+[2022-11-08T15:00:18.860Z] -----Current disk usage: 0.003601 GBytes used, 1365.248928 GBytes available-----
+[2022-11-08T15:00:18.860Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] -----------------Check adaptive mesh convergence at iteration 5-----------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T15:00:19.419Z]    1        5599       36564   0.00000e+00        7.150e+02    5.06656e+00
+[2022-11-08T15:00:19.419Z]    2        6913       44874   1.07414e-03        8.860e+02    6.36679e+00
+[2022-11-08T15:00:19.419Z]    3        8184       52950   2.26016e-03        1.070e+03    7.89344e+00
+[2022-11-08T15:00:19.419Z]    4        9714       62724   2.95269e-03        1.270e+03    7.64583e+00
+[2022-11-08T15:00:19.419Z]    5       11509       74112   2.16893e-03        1.518e+03    8.99129e+00
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] --------------Total time elapsed for mesh iteration: 35.98 seconds--------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] -----------------------Adaptive mesh refinement finished-----------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] Time elapsed for adaptive mesh: 0:0:36
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 100.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 200.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 300.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 400.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 100.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 500.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 600.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 200.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 700.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 300.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 800.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 500.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 600.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ----------------------Start to solve frequency 1.000 GHz ----------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 400.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Start to solve frequency 900.000 MHz ---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 800.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 700.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ----------------------Solving frequency 1.000 GHz started----------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:19.419Z] ---------------------Solving frequency 900.000 MHz started---------------------
+[2022-11-08T15:00:19.419Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------End of solving frequency 400.000 MHz ---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------Time elapsed for solving frequency 400.000 MHz : 8.72 seconds---------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------End of solving frequency 200.000 MHz ---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------Time elapsed for solving frequency 200.000 MHz : 8.98 seconds---------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------End of solving frequency 500.000 MHz ---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------Time elapsed for solving frequency 500.000 MHz : 9.03 seconds---------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------Controller RAM usage: 0.038235 GBytes---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----Current disk usage: 0.002400 GBytes used, 1365.050907 GBytes available-----
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------End of solving frequency 100.000 MHz ---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------Time elapsed for solving frequency 100.000 MHz : 9.23 seconds---------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------End of solving frequency 700.000 MHz ---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------Time elapsed for solving frequency 700.000 MHz : 9.33 seconds---------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------End of solving frequency 600.000 MHz ---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------Time elapsed for solving frequency 600.000 MHz : 9.52 seconds---------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------------------End of solving frequency 300.000 MHz ---------------------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.357Z] ---------Time elapsed for solving frequency 300.000 MHz : 10.03 seconds---------
+[2022-11-08T15:00:29.357Z] 
+[2022-11-08T15:00:29.632Z] 
+[2022-11-08T15:00:29.632Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:29.632Z] 
+[2022-11-08T15:00:29.632Z] 
+[2022-11-08T15:00:29.632Z] ---------------------End of solving frequency 800.000 MHz ---------------------
+[2022-11-08T15:00:29.632Z] 
+[2022-11-08T15:00:29.632Z] 
+[2022-11-08T15:00:29.632Z] ---------Time elapsed for solving frequency 800.000 MHz : 10.23 seconds---------
+[2022-11-08T15:00:29.632Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] ----------------------End of solving frequency 1.000 GHz ----------------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] ----------Time elapsed for solving frequency 1.000 GHz : 16.94 seconds----------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] ---------------------End of solving frequency 900.000 MHz ---------------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] ---------Time elapsed for solving frequency 900.000 MHz : 16.94 seconds---------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] ---------------Time elapsed for high frequency simulation: 0:0:16---------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] ----------------Time elapsed for low frequency simulation: 0:0:0----------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] -------------------Time elapsed for final simulation: 0:0:17-------------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] ---------------------Controller RAM usage: 0.039036 GBytes---------------------
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] -----Current disk usage: 0.002459 GBytes used, 1365.047958 GBytes available-----
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.713Z] 
+[2022-11-08T15:00:37.714Z] ---------------------------Cleanup intermediate files---------------------------
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] ------------------Post-simulation disk usage: 0.002310 GBytes------------------
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] --------------------------------Release license--------------------------------
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] -------------------------License checking process exit-------------------------
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] ------------------------------Simulation succeeded------------------------------
+[2022-11-08T15:00:37.714Z] 
+[2022-11-08T15:00:37.714Z] <<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<
+[2022-11-08T15:00:41.865Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/env.sh; clarity_clear.sh -y
+[2022-11-08T15:00:41.865Z] 
+[2022-11-08T15:00:41.865Z] Deleting all the intermediate files in the current directory and sub directories ...
+[2022-11-08T15:00:41.865Z] 
+[2022-11-08T15:00:41.865Z] find: ‘./atlas_launch-221108-065706.928’: No such file or directory
+[2022-11-08T15:00:41.865Z] 
+[2022-11-08T15:00:41.865Z] ***** Begin Analyze Section *****
+[2022-11-08T15:00:41.865Z] # Check if squish run into problem
+[2022-11-08T15:00:41.865Z] ***** End Analyze Section *****
+[2022-11-08T15:00:41.865Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output
+[2022-11-08T15:00:41.865Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output; chmod -R 774 .
+[2022-11-08T15:00:41.865Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/*.diff;
+[2022-11-08T15:00:41.865Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/*.error;
+[2022-11-08T15:00:41.865Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location/lnx86_output/0_metal_Z_location.S1P
+[2022-11-08T15:00:41.865Z] PASSED
+[2022-11-08T15:00:41.866Z] ./0_metal_Z_location  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:00:41 2022
+[2022-11-08T15:00:41.866Z] 
+[2022-11-08T15:00:41.866Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:00:41.866Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:00:41.866Z] <<./smoke_clarity3dlayout started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:00:41 2022>>
+[2022-11-08T15:00:41.866Z] <<./smoke_clarity3dlayout started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:00:41 2022>>
+[2022-11-08T15:00:41.866Z] <<./smoke_clarity3dlayout started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:00:41 2022>>
+[2022-11-08T15:00:41.866Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:00:41.866Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/smoke_clarity3dlayout/lnx86_output
+[2022-11-08T15:00:41.866Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/smoke_clarity3dlayout/lnx86_output
+[2022-11-08T15:00:41.866Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/smoke_clarity3dlayout/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/smoke_clarity3dlayout/env.sh; clarity3dlayout -v
+[2022-11-08T15:00:41.866Z] Layout Workbench 23.1.0.10061.385173   000
+[2022-11-08T15:00:41.866Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/smoke_clarity3dlayout/lnx86_output; chmod -R 774 .mw
+[2022-11-08T15:00:41.866Z] chmod: cannot access ‘.mw’: No such file or directory
+[2022-11-08T15:00:41.866Z] make: [verify] Error 1 (ignored)
+[2022-11-08T15:00:41.866Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/smoke_clarity3dlayout/lnx86_output/*.diff;
+[2022-11-08T15:00:41.866Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/smoke_clarity3dlayout/lnx86_output/*.error;
+[2022-11-08T15:00:41.866Z] PASSED
+[2022-11-08T15:00:41.866Z] ./smoke_clarity3dlayout  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:00:41 2022
+[2022-11-08T15:00:41.866Z] 
+[2022-11-08T15:00:41.866Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:00:41.866Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:00:41.866Z] <<./56asym_strip started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:00:41 2022>>
+[2022-11-08T15:00:41.866Z] <<./56asym_strip started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:00:41 2022>>
+[2022-11-08T15:00:41.866Z] <<./56asym_strip started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:00:41 2022>>
+[2022-11-08T15:00:41.866Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:00:41.866Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output
+[2022-11-08T15:00:41.866Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output
+[2022-11-08T15:00:41.866Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output 
+[2022-11-08T15:00:41.866Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output 
+[2022-11-08T15:00:41.866Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 32 -mem 32
+[2022-11-08T15:00:41.866Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output/LOCAL_RUN_CONF /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output/56asym_strip.config
+[2022-11-08T15:00:41.866Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/env.sh; clarity3dlayout -b -NoUI /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output/56asym_strip.spd
+[2022-11-08T15:03:18.225Z] make: [run_test] Error 254 (ignored)
+[2022-11-08T15:03:18.225Z] # Check if squish run into problem
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/golden/56asym_strip_FIT.S2P 56asym_strip_FIT.S2P 500 0.02 1
+[2022-11-08T15:03:18.225Z] ############### in compare #####################
+[2022-11-08T15:03:18.225Z] No differences.
+[2022-11-08T15:03:18.225Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output; chmod -R 777 .
+[2022-11-08T15:03:18.225Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output/*.diff;
+[2022-11-08T15:03:18.225Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output/*.error;
+[2022-11-08T15:03:18.225Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/56asym_strip/lnx86_output/compare.done
+[2022-11-08T15:03:18.225Z] PASSED
+[2022-11-08T15:03:18.225Z] ./56asym_strip  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:03:05 2022
+[2022-11-08T15:03:18.225Z] 
+[2022-11-08T15:03:18.225Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:03:18.225Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:03:18.225Z] <<./CCMPR02495122_open_spd_crash started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:05 2022>>
+[2022-11-08T15:03:18.225Z] <<./CCMPR02495122_open_spd_crash started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:05 2022>>
+[2022-11-08T15:03:18.225Z] <<./CCMPR02495122_open_spd_crash started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:05 2022>>
+[2022-11-08T15:03:18.225Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:03:18.225Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output
+[2022-11-08T15:03:18.225Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output 
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output 
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output;  . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/env.sh; clarity3dlayout -NoUI -tcl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output/test.tcl
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep_block.pl -file Regulus_Stage2_BD_OPT5_20210602_OP5_saved.spd -begin '\* Layer description lines' -end '\* ConformalLayer description lines'
+[2022-11-08T15:03:18.225Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep_block.pl -file test_save2.spd -begin 'Component description lines' -end '.EndCompCollection'
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/golden/Regulus_Stage2_BD_OPT5_20210602_OP5_saved.spd Regulus_Stage2_BD_OPT5_20210602_OP5_saved.spd
+[2022-11-08T15:03:18.225Z] ############### in compare #####################
+[2022-11-08T15:03:18.225Z] No differences.
+[2022-11-08T15:03:18.225Z] #- cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/golden/test_save2.spd test_save2.spd
+[2022-11-08T15:03:18.225Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output; chmod -R 777 .
+[2022-11-08T15:03:18.225Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output/*.diff;
+[2022-11-08T15:03:18.225Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output/*.error;
+[2022-11-08T15:03:18.225Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/CCMPR02495122_open_spd_crash/lnx86_output/compare.done;
+[2022-11-08T15:03:18.225Z] PASSED
+[2022-11-08T15:03:18.225Z] ./CCMPR02495122_open_spd_crash  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:03:09 2022
+[2022-11-08T15:03:18.225Z] 
+[2022-11-08T15:03:18.225Z] ./KuMicrostripFilter_BF0: Ignored
+[2022-11-08T15:03:18.225Z] 
+[2022-11-08T15:03:18.225Z] ./test_4terminalckt_FEM: Ignored:  
+[2022-11-08T15:03:18.225Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:03:18.225Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:03:18.225Z] <<./legacy_antenna started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:09 2022>>
+[2022-11-08T15:03:18.225Z] <<./legacy_antenna started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:09 2022>>
+[2022-11-08T15:03:18.225Z] <<./legacy_antenna started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:09 2022>>
+[2022-11-08T15:03:18.225Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:03:18.225Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output
+[2022-11-08T15:03:18.225Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output 
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output 
+[2022-11-08T15:03:18.225Z] cp: cannot stat ‘/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/scripts/*’: No such file or directory
+[2022-11-08T15:03:18.225Z] make: [run_test] Error 1 (ignored)
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 8 -mem 8
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/env.sh; wave3d_engine /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/ afs_legacy_all_all r 0.02 1
+[2022-11-08T15:03:18.225Z] 
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/diff_cmp /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden/afs_legacy_all_all.refinelist afs_legacy_all_all.refinelist
+[2022-11-08T15:03:18.225Z] ############### in compare #####################
+[2022-11-08T15:03:18.225Z] (diff_cmp) performing diff: diff  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden/afs_legacy_all_all.refinelist afs_legacy_all_all.refinelist >afs_legacy_all_all.refinelist.diff
+[2022-11-08T15:03:18.225Z] No differences.
+[2022-11-08T15:03:18.225Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.refinelist
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/diff_cmp /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden/afs_legacy_all_all.mesh3db afs_legacy_all_all.mesh3db
+[2022-11-08T15:03:18.225Z] ############### in compare #####################
+[2022-11-08T15:03:18.225Z] (diff_cmp) performing diff: diff  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden/afs_legacy_all_all.mesh3db afs_legacy_all_all.mesh3db >afs_legacy_all_all.mesh3db.diff
+[2022-11-08T15:03:18.225Z] No differences.
+[2022-11-08T15:03:18.225Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.mesh3db
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/diff_cmp /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden/afs_legacy_all_all.portinfo afs_legacy_all_all.portinfo
+[2022-11-08T15:03:18.225Z] ############### in compare #####################
+[2022-11-08T15:03:18.225Z] (diff_cmp) performing diff: diff  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden/afs_legacy_all_all.portinfo afs_legacy_all_all.portinfo >afs_legacy_all_all.portinfo.diff
+[2022-11-08T15:03:18.225Z] No differences.
+[2022-11-08T15:03:18.225Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.portinfo
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden/afs_legacy_all_all.sxp afs_legacy_all_all.sxp 0.01
+[2022-11-08T15:03:18.225Z] ############### in compare #####################
+[2022-11-08T15:03:18.225Z] No differences.
+[2022-11-08T15:03:18.225Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.sxp
+[2022-11-08T15:03:18.225Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output; chmod -R 777 .
+[2022-11-08T15:03:18.225Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/*.diff;
+[2022-11-08T15:03:18.225Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/*.error;
+[2022-11-08T15:03:18.225Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.refinelist
+[2022-11-08T15:03:18.225Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.mesh3db
+[2022-11-08T15:03:18.225Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.portinfo
+[2022-11-08T15:03:18.225Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna/lnx86_output/compare.done.sxp
+[2022-11-08T15:03:18.225Z] PASSED
+[2022-11-08T15:03:18.225Z] ./legacy_antenna  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:03:10 2022
+[2022-11-08T15:03:18.225Z] 
+[2022-11-08T15:03:18.225Z] ./regr_diff_via_xmesh: Ignored
+[2022-11-08T15:03:18.225Z] 
+[2022-11-08T15:03:18.225Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:03:18.225Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:03:18.225Z] <<./Asus_cut_step7_setting started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:10 2022>>
+[2022-11-08T15:03:18.225Z] <<./Asus_cut_step7_setting started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:10 2022>>
+[2022-11-08T15:03:18.225Z] <<./Asus_cut_step7_setting started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:03:10 2022>>
+[2022-11-08T15:03:18.225Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:03:18.225Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output
+[2022-11-08T15:03:18.225Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output 
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output 
+[2022-11-08T15:03:18.225Z] cp: cannot stat ‘/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/scripts/*’: No such file or directory
+[2022-11-08T15:03:18.225Z] make: [run_test] Error 1 (ignored)
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 8 -mem 8
+[2022-11-08T15:03:18.225Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/env.sh; clarity_run.sh --design-name Asus_cut_step7_setting.spd
+[2022-11-08T15:03:18.225Z] Clarity path is  /data/Automation/main/LocalBuild
+[2022-11-08T15:03:18.225Z] Clarity run program is  /data/Automation/main/LocalBuild/tools/bin/run_atlas_clarity.dev
+[2022-11-08T15:03:18.225Z] CLARITY_CONFIG file is  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/LOCAL_RUN_CONF
+[2022-11-08T15:03:18.225Z] Full file name: /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/Asus_cut_step7_setting.spd
+[2022-11-08T15:03:18.225Z] 
+[2022-11-08T15:03:18.225Z] /data/Automation/main/LocalBuild/tools/bin/clarity_run.sh: line 174: [: !=: unary operator expected
+[2022-11-08T15:03:18.225Z] Clarity path is  /data/Automation/main/LocalBuild
+[2022-11-08T15:03:18.225Z] Clarity run program is  /data/Automation/main/LocalBuild/tools/bin/run_atlas_clarity.dev
+[2022-11-08T15:03:18.225Z] CLARITY_CONFIG file is  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/LOCAL_RUN_CONF
+[2022-11-08T15:03:18.225Z] ARGS: NS(svcmaster_config=/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/LOCAL_RUN_CONF, write_state_file=None, other_json=None, manifest=None, web_port=None, command=['/scratch_ssd/Automation/main/LocalBuild/tools.lnx86/bin/run_atlas_clarity.py', '--proxy', '%PROXY%', '--run-dir', '/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output', '--design-name', 'Asus_cut_step7_setting.spd', '--log-dir', '', '--level', '-1', '--init-mesh', 'true', '--final-only', 'false', '--resume', 'false'])
+[2022-11-08T15:03:18.225Z] Starting runloop
+[2022-11-08T15:03:18.225Z] <<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] Couldn't find file /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/Asus_cut_step7_setting_clarity_sim/Asus_cut_step7_setting.control.
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------------Data service is enabled----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -------------------------Start license checking program-------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------------Initializing simulation----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] Time elapsed for generating initial mesh: 0:0:1
+[2022-11-08T15:05:54.592Z] Initial mesh size: 1240
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] --------------------Call wave3d_engine for port information--------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Controller RAM usage: 0.034340 GBytes---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----Current disk usage: 0.000337 GBytes used, 1364.076466 GBytes available-----
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------------Run adaptive mesh begin----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------------Running 1st mesh iteration---------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start 1st adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Controller RAM usage: 0.034504 GBytes---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----Current disk usage: 0.000362 GBytes used, 1364.076370 GBytes available-----
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------Check adaptive mesh convergence at iteration 1-----------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------Start mesh refinement at iteration 1----------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T15:05:54.592Z]    1        1240        9030   0.00000e+00        1.100e+02    1.09047e+00
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------------Running 2nd mesh iteration---------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start 2nd adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Controller RAM usage: 0.035931 GBytes---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----Current disk usage: 0.000608 GBytes used, 1364.076050 GBytes available-----
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------Check adaptive mesh convergence at iteration 2-----------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------Adaptive mesh convergence check end----------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------Start mesh refinement at iteration 2----------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] --------------Improve mesh quality during mesh refinement: Enabled--------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T15:05:54.592Z]    1        1240        9030   0.00000e+00        1.100e+02    1.09047e+00
+[2022-11-08T15:05:54.592Z]    2        1410       10148   6.71805e-03        1.240e+02    1.20708e+00
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------------Running 3rd mesh iteration---------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start 3rd adaptive mesh for 1.000 GHz---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Controller RAM usage: 0.036007 GBytes---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----Current disk usage: 0.000677 GBytes used, 1364.075924 GBytes available-----
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------Check adaptive mesh convergence at iteration 3-----------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] Pass    nElement   nUnknowns        deltaS  Peak_Memory(MB)  Time(seconds)
+[2022-11-08T15:05:54.592Z]    1        1240        9030   0.00000e+00        1.100e+02    1.09047e+00
+[2022-11-08T15:05:54.592Z]    2        1410       10148   6.71805e-03        1.240e+02    1.20708e+00
+[2022-11-08T15:05:54.592Z]    3        1568       11186   1.18582e-03        1.370e+02    7.87315e-01
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] --------------Total time elapsed for mesh iteration: 3.09 seconds--------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------Adaptive mesh refinement finished-----------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] Time elapsed for adaptive mesh: 0:0:3
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 100.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 200.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 300.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 500.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 600.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 100.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 200.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 400.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 700.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 300.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 500.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 600.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 800.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 700.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 400.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 800.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Controller RAM usage: 0.040428 GBytes---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----Current disk usage: 0.000554 GBytes used, 1364.075668 GBytes available-----
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------End of solving frequency 200.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------Time elapsed for solving frequency 200.000 MHz : 0.71 seconds---------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Start to solve frequency 900.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------Solving frequency 900.000 MHz started---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------End of solving frequency 100.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------Time elapsed for solving frequency 100.000 MHz : 0.74 seconds---------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------Start to solve frequency 1.000 GHz ----------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ----------------------Solving frequency 1.000 GHz started----------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------End of solving frequency 500.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------Time elapsed for solving frequency 500.000 MHz : 0.76 seconds---------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------End of solving frequency 300.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------Time elapsed for solving frequency 300.000 MHz : 0.76 seconds---------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------End of solving frequency 700.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------Time elapsed for solving frequency 700.000 MHz : 1.36 seconds---------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------End of solving frequency 400.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------Time elapsed for solving frequency 400.000 MHz : 1.40 seconds---------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------------------End of solving frequency 800.000 MHz ---------------------
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] 
+[2022-11-08T15:05:54.592Z] ---------Time elapsed for solving frequency 800.000 MHz : 1.40 seconds---------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------------End of solving frequency 600.000 MHz ---------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------Time elapsed for solving frequency 600.000 MHz : 1.42 seconds---------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------------Controller RAM usage: 0.038773 GBytes---------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----Current disk usage: 0.000676 GBytes used, 1364.075283 GBytes available-----
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------------End of solving frequency 900.000 MHz ---------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------Time elapsed for solving frequency 900.000 MHz : 1.40 seconds---------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ----------------------End of solving frequency 1.000 GHz ----------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ----------Time elapsed for solving frequency 1.000 GHz : 1.38 seconds----------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------Time elapsed for high frequency simulation: 0:0:2---------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------Start to run DC solver-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------start to run getmatrix-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ----------------start to run solver engine for each metal block----------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------start to run forward factorization-----------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------Start to solve metal block: BLK_0 -----------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------Start to solve metal block: BLK_1 -----------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------End of solving metal block: BLK_1 -----------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] --------Total time elapsed for solving metal block: BLK_1 : 0.10 seconds--------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------End of solving metal block: BLK_0 -----------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] --------Total time elapsed for solving metal block: BLK_0 : 0.11 seconds--------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------------------start to run RootNodeSpice---------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------------------1 remote jobs finished-----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----------------DC Post-simulation disk usage: 0.000890 GBytes-----------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ----------------------------DC simulation succeeded----------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ------------------------------DC solving completed------------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------------Controller RAM usage: 0.039539 GBytes---------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----Current disk usage: 0.000800 GBytes used, 1364.063702 GBytes available-----
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ------------------Time elapsed for DC solution : 0.40 seconds------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ----------------Time elapsed for low frequency simulation: 0:0:0----------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] --------------------Time elapsed for final simulation: 0:0:2--------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------------Controller RAM usage: 0.039742 GBytes---------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -----Current disk usage: 0.000800 GBytes used, 1364.063606 GBytes available-----
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ---------------------------Cleanup intermediate files---------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ------------------Post-simulation disk usage: 0.000500 GBytes------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] --------------------------------Release license--------------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] -------------------------License checking process exit-------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] ------------------------------Simulation succeeded------------------------------
+[2022-11-08T15:05:54.593Z] 
+[2022-11-08T15:05:54.593Z] <<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<<>>><<
+[2022-11-08T15:05:59.826Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/env.sh; clarity_clear.sh -y
+[2022-11-08T15:05:59.826Z] 
+[2022-11-08T15:05:59.826Z] Deleting all the intermediate files in the current directory and sub directories ...
+[2022-11-08T15:05:59.826Z] 
+[2022-11-08T15:05:59.826Z] find: ‘./atlas_launch-221108-070311.002’: No such file or directory
+[2022-11-08T15:05:59.826Z] # Check if squish run into problem
+[2022-11-08T15:05:59.827Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/golden/Asus_cut_step7_setting.S1P Asus_cut_step7_setting.S1P 500 0.04 1
+[2022-11-08T15:05:59.827Z] ############### in compare #####################
+[2022-11-08T15:05:59.827Z] No differences.
+[2022-11-08T15:05:59.827Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output
+[2022-11-08T15:05:59.827Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output; chmod -R 774 .
+[2022-11-08T15:05:59.827Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/*.diff;
+[2022-11-08T15:05:59.827Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/*.error;
+[2022-11-08T15:05:59.827Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Asus_cut_step7_setting/lnx86_output/compare.done
+[2022-11-08T15:05:59.827Z] PASSED
+[2022-11-08T15:05:59.827Z] ./Asus_cut_step7_setting  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:05:59 2022
+[2022-11-08T15:05:59.827Z] 
+[2022-11-08T15:05:59.827Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:05:59.827Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:05:59.827Z] <<./0_metal_Z_location_initialmesh started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:05:59 2022>>
+[2022-11-08T15:05:59.827Z] <<./0_metal_Z_location_initialmesh started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:05:59 2022>>
+[2022-11-08T15:05:59.827Z] <<./0_metal_Z_location_initialmesh started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:05:59 2022>>
+[2022-11-08T15:05:59.827Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:05:59.827Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output
+[2022-11-08T15:05:59.827Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output
+[2022-11-08T15:05:59.827Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output 
+[2022-11-08T15:05:59.827Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output 
+[2022-11-08T15:05:59.827Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output/runCase.sh
+[2022-11-08T15:05:59.827Z] Project name is /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output/0_metal_Z_location_initialmesh.spd
+[2022-11-08T15:06:00.405Z] 221108:150600.117 | ds_worker1 | WARNING | Replacing Logger: ds_worker1
+[2022-11-08T15:06:01.787Z] the status is true
+[2022-11-08T15:06:01.787Z] Here is my status result:
+[2022-11-08T15:06:01.787Z] true
+[2022-11-08T15:06:01.787Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/env.sh; clarity_clear.sh -y
+[2022-11-08T15:06:01.787Z] 
+[2022-11-08T15:06:01.787Z] Deleting all the intermediate files in the current directory and sub directories ...
+[2022-11-08T15:06:01.787Z] 
+[2022-11-08T15:06:01.787Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output; chmod -R 774 .
+[2022-11-08T15:06:01.787Z] test -s /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output/0_metal_Z_location_initialmesh.sigmamesh.log
+[2022-11-08T15:06:01.787Z] grep "Total elapsed time:" /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output/0_metal_Z_location_initialmesh.sigmamesh.log
+[2022-11-08T15:06:01.787Z] ===== Total elapsed time: 1.19915 seconds =====
+[2022-11-08T15:06:01.787Z] grep "true" /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/0_metal_Z_location_initialmesh/lnx86_output/0_metal_Z_location_initialmesh_tmp.log
+[2022-11-08T15:06:01.787Z] true
+[2022-11-08T15:06:01.787Z] PASSED
+[2022-11-08T15:06:01.787Z] ./0_metal_Z_location_initialmesh  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:06:01 2022
+[2022-11-08T15:06:01.787Z] 
+[2022-11-08T15:06:01.787Z] ./41filldie_mtemp_sfreq_Dlocal: Ignored
+[2022-11-08T15:06:01.787Z] 
+[2022-11-08T15:06:01.787Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:06:01.787Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:06:01.787Z] <<./Material_Er1_LT001 started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:06:01 2022>>
+[2022-11-08T15:06:01.787Z] <<./Material_Er1_LT001 started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:06:01 2022>>
+[2022-11-08T15:06:01.787Z] <<./Material_Er1_LT001 started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:06:01 2022>>
+[2022-11-08T15:06:02.042Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:06:02.042Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output
+[2022-11-08T15:06:02.042Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output
+[2022-11-08T15:06:02.042Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output 
+[2022-11-08T15:06:02.042Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output 
+[2022-11-08T15:06:02.042Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output; clarity3dlayout -b -NoUI -tcl  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output/test.tcl
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ***** Begin Analyze Section *****
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/keep.pl diff_via.spd 'Medium01 Thickness'
+[2022-11-08T15:07:09.690Z] ***** End Analyze Section *****
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/golden/diff_via_FIT.S4P diff_via_FIT.S4P 500 0.1 1
+[2022-11-08T15:07:09.690Z] ############### in compare #####################
+[2022-11-08T15:07:09.690Z] No differences.
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/golden/diff_via.spd diff_via.spd
+[2022-11-08T15:07:09.690Z] ############### in compare #####################
+[2022-11-08T15:07:09.690Z] No differences.
+[2022-11-08T15:07:09.690Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output; chmod -R 777 .
+[2022-11-08T15:07:09.690Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output/*.diff;
+[2022-11-08T15:07:09.690Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output/*.error;
+[2022-11-08T15:07:09.690Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/Material_Er1_LT001/lnx86_output/compare.done
+[2022-11-08T15:07:09.690Z] PASSED
+[2022-11-08T15:07:09.690Z] ./Material_Er1_LT001  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:07:08 2022
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./mesh_23_test: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:07:09.690Z] make NOGRAPH=-NoUI MPIRUN= BYCORE= OUTPUT_DIR=lnx86_output quick
+[2022-11-08T15:07:09.690Z] <<./legacy_antenna_fields started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:07:08 2022>>
+[2022-11-08T15:07:09.690Z] <<./legacy_antenna_fields started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:07:08 2022>>
+[2022-11-08T15:07:09.690Z] <<./legacy_antenna_fields started by svc_cicd on srv-sigreg-lx3 (Linux srv-sigreg-lx3 3.10.0-1160.2.2.el7.x86_64 #1 SMP Sat Oct 17 05:06:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux) at Tue Nov  8 07:07:08 2022>>
+[2022-11-08T15:07:09.690Z] /cds/PVTS/pvts_CM/bin.lnx86/sem_rem.pl
+[2022-11-08T15:07:09.690Z] rm -rf /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output
+[2022-11-08T15:07:09.690Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/data/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output 
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; cp -R -L /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/scripts/* /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output 
+[2022-11-08T15:07:09.690Z] cp: cannot stat ‘/scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/scripts/*’: No such file or directory
+[2022-11-08T15:07:09.690Z] make: [run_test_base] Error 1 (ignored)
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output;  /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/generate_config.pl  -cpus 8 -mem 8
+[2022-11-08T15:07:09.690Z] mkdir -p /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/5000000000.0
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; . /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/env.sh; wave3d_engine /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/ afs_legacy_all_all field 5000000000.0
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/diff_cmp /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/golden/afs_legacy_all_all.portinfo afs_legacy_all_all.portinfo   
+[2022-11-08T15:07:09.690Z] ############### in compare #####################
+[2022-11-08T15:07:09.690Z] (diff_cmp) performing diff: diff  /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/golden/afs_legacy_all_all.portinfo afs_legacy_all_all.portinfo >afs_legacy_all_all.portinfo.diff
+[2022-11-08T15:07:09.690Z] No differences.
+[2022-11-08T15:07:09.690Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/afs_legacy_all_all.portinfo.done
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff_sp_adv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/golden/5000000000.0/afs_legacy_all_all_FIT.S1P 5000000000.0/afs_legacy_all_all_FIT.S1P 0.01  
+[2022-11-08T15:07:09.690Z] ############### in compare #####################
+[2022-11-08T15:07:09.690Z] No differences.
+[2022-11-08T15:07:09.690Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/5000000000.0/afs_legacy_all_all_FIT.S1P.done
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff2 /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/golden/5000000000.0/afs_legacy_all_all_tmp.rnf 5000000000.0/afs_legacy_all_all_tmp.rnf 0.01 1.e-6 1
+[2022-11-08T15:07:09.690Z] ############### in compare #####################
+[2022-11-08T15:07:09.690Z] No differences.
+[2022-11-08T15:07:09.690Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/5000000000.0/afs_legacy_all_all_tmp.rnf.done
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff2 /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/golden/5000000000.0/afs_legacy_all_all.bnf 5000000000.0/afs_legacy_all_all.bnf 0.01 1.e-6 1
+[2022-11-08T15:07:09.690Z] ############### in compare #####################
+[2022-11-08T15:07:09.690Z] No differences.
+[2022-11-08T15:07:09.690Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/5000000000.0/afs_legacy_all_all.bnf.done
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; /cds/PVTS/pvts_CM/bin.all/diff/compare_sig.pl /cds/PVTS/tests/sigrity_ws/23.10/main/utilities/u_diff/bin/difff2 /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/golden/afs_legacy_all_all_R3D/afs_legacy_all_all_0_5000000000.0*.dat afs_legacy_all_all_R3D/afs_legacy_all_all_0_5000000000.0*.dat 0.01 1.e-6 1
+[2022-11-08T15:07:09.690Z] ############### in compare #####################
+[2022-11-08T15:07:09.690Z] No differences.
+[2022-11-08T15:07:09.690Z] mv /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/compare.done /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/afs_legacy_all_all_R3D/afs_legacy_all_all_0_5000000000.0.dat.done
+[2022-11-08T15:07:09.690Z] /cds/PVTS/pvts_CM/bin.all/diff/rpe_sync.pl /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/golden /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output
+[2022-11-08T15:07:09.690Z] cd /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output; chmod -R 777 .
+[2022-11-08T15:07:09.690Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/*.diff;
+[2022-11-08T15:07:09.690Z] test ! -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/*.error;
+[2022-11-08T15:07:09.690Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/afs_legacy_all_all.portinfo.done;
+[2022-11-08T15:07:09.690Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/5000000000.0/afs_legacy_all_all_FIT.S1P.done;
+[2022-11-08T15:07:09.690Z] test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/5000000000.0/afs_legacy_all_all_tmp.rnf.done; test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/5000000000.0/afs_legacy_all_all.bnf.done; test -f /scratch_ssd/Automation/main/tests/unit_tests/trinity/splitted/part1/legacy_antenna_fields/lnx86_output/afs_legacy_all_all_R3D/afs_legacy_all_all_0_5000000000.0.dat.done;
+[2022-11-08T15:07:09.690Z] PASSED
+[2022-11-08T15:07:09.690Z] ./legacy_antenna_fields  PASSED on srv-sigreg-lx3 at Tue Nov  8 07:07:08 2022
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./wb_example_workbench: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./regr_CCR2618095_Lmesh: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./volumnmesh_failed: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./CCMPR02594890_port_impedance_partition: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./case_with_partition: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./rigid_flex_autofit_enablestability: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./CCMPR02117769_IC_Mode_Sim: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./Lmesh_multiterminal: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./afs_legacy_all_amr: Ignored:  
+[2022-11-08T15:07:09.690Z] ./CLF_dielectric_block_compare: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./L2_mesh_test: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./onetrace1_luwmix: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./cpw_PEC_part_group_test: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./53sample_Dmesh: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./Multinodesckt_dc_CCMPR01734049: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./45roughness_harmmodel: Ignored:  
+[2022-11-08T15:07:09.690Z] ./mesh_3dwb_test: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./ipc_1Ghz_cut_freq_default: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] ./Mixed_BC_Discrete_EM_save: Ignored
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] <<Finished at Tue Nov  8 07:07:08 2022>>
+[2022-11-08T15:07:09.690Z] PASSED
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z]  Passed:   17
+[2022-11-08T15:07:09.690Z]  Failed:    0
+[2022-11-08T15:07:09.690Z] Ignored:   28
+[2022-11-08T15:07:09.690Z] Unresolved:    0
+[2022-11-08T15:07:09.690Z] Intermittent (passed):    0
+[2022-11-08T15:07:09.690Z] Intermittent (failed):    0
+[2022-11-08T15:07:09.690Z]   Total:   45
+[2022-11-08T15:07:09.690Z] 
+[2022-11-08T15:07:09.690Z] RunPVLinuxRegression: the Root Path is: /data/Automation/main/LocalBuild
+[2022-11-08T15:07:09.690Z] Current Path is : /scratch_ssd/Automation/main/Install/cm/jenkins_utils
+[2022-11-08T15:07:09.690Z] parentWorkSpace is : /scratch_ssd/Automation/main
+[2022-11-08T15:07:09.690Z] PVTS_ROOT is/cds/PVTS/tests/sigrity_ws/23.10/main
+[2022-11-08T15:07:09.690Z] RunPVLinuxRegression: the SIG_ROOT and ASIROOT are set as: /data/Automation/main/LocalBuild
+[2022-11-08T15:07:09.690Z] Starting Testing ...
+[2022-11-08T15:07:09.690Z] Testing complete successfully ...

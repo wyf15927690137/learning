@@ -61,6 +61,14 @@ ctrl+a+d	//put the current screen background
 screen -r {pid}(or screen1)	//step into  a screen
 
 screen -x {pid}   //step into a screen in multiplay
+
+echo $TERM (return screen means are in a screen)
+
+
+There is no screen to be resumed matching server.
+screen -d id 
+screen -r id (reconnect)
+
 ```
 
 

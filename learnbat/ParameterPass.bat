@@ -1,0 +1,11 @@
+@echo off
+set p1=%1
+set p2=%2
+set p3=%3
+set pp=%*
+echo %p1%
+echo %p2%
+echo %p3%
+echo %pp%%p3%
+echo fourth%4fourth
+echo %var%

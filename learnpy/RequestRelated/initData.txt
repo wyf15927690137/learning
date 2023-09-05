@@ -1,0 +1,198 @@
+
+  
+  
+    
+    
+
+    CheckBuild » PreCheck_main #5834 Pipeline steps [Jenkins]var Q=jQuery.noConflict()Skip to contentJenkinscreateSearchBox("/job/CheckBuild/job/PreCheck_main/5834/search/");log inDashboardCheckBuildPreCheck_main#5834Pipeline StepsBack to ProjectStatusChangesConsole OutputView as plain textView Build InformationParametersGit Build DataGit Build DataOpen Blue OceanPipeline StepsWorkspacesPrevious BuildNext BuildStepArgumentsStatusStart of Pipeline - (1 hr 59 min in block)Allocate node : Start - (1 hr 59 min in block)SigCICDAllocate node : Body : Start - (1 hr 29 min in block)Print Message - (2 ms in self)branch is main_in_oneAllocate workspace : Start - (1 hr 29 min in block)/data/Automation/mainAllocate workspace : Body : Start - (1 hr 29 min in block)Print Message - (45 ms in self)WORKSPACE is /data/Automation/mainStage : Start - (2.4 sec in block)PullHelpUtilPullHelpUtil - (2.4 sec in block)Change current directory : Start - (1.7 sec in block)/data/Automation/cadencehelper/mainChange current directory : Body : Start - (1.6 sec in block)Git - (1.6 sec in self)Change current directory : Start - (0.75 sec in block)/data/Automation/msrsyncChange current directory : Body : Start - (0.74 sec in block)Git - (0.73 sec in self)Timestamps : Start - (1 hr 29 min in block)Timestamps : Body : Start - (1 hr 29 min in block)Stage : Start - (3 min 34 sec in block)CleanupCleanup - (3 min 34 sec in block)Change current directory : Start - (3 min 34 sec in block)/data/Automation/mainChange current directory : Body : Start - (3 min 34 sec in block)Print Message - (1 ms in self)ProductPath is /data/Automation/mainShell Script - (3 min 34 sec in self)Stage : Start - (11 sec in block)Checkout P4Checkout P4 - (11 sec in block)Print Message - (2 ms in self)Current  workspace is /scratch/Jenkins/JenkinsSlavePrint Message - (3 ms in self)path is /data/Automation/mainChange current directory : Start - (11 sec in block)/data/Automation/mainChange current directory : Body : Start - (11 sec in block)Print Message - (3 ms in self)Current  workspace is /scratch/Jenkins/JenkinsSlaveCheck out from version control - (11 sec in self)Stage : Start - (0.27 sec in block)Unshelve P4Unshelve P4 - (0.26 sec in block)Print Message - (2 ms in self)Current  workspace is /scratch/Jenkins/JenkinsSlavePrint Message - (3 ms in self)path is /data/Automation/mainChange current directory : Start - (0.24 sec in block)/data/Automation/mainChange current directory : Body : Start - (0.22 sec in block)P4 Unshelve - (0.21 sec in self)Stage : Start - (0.31 sec in block)CacheChangeDiffCacheChangeDiff - (0.3 sec in block)Change current directory : Start - (0.29 sec in block)/data/Automation/mainChange current directory : Body : Start - (0.28 sec in block)Print Message - (1 ms in self)ProductPath is /data/Automation/mainShell Script - (0.26 sec in self)
+                                        pwd                 
+                                                                                
+                                        cd ${ProductPath}
+                                        export PATH=$PATH:/grid/common/pkgs/perforce/latest/bin
+                                        export P4PORT=ssl:sigbroker:1644
+                                        export P4USER=cc
+                                        export P4CLIENT=${P4ClientWorkspace}
+
+                                        p4 describe -S -du ${changelist} >${CachedP4Diff}
+
+                                    Archive the artifacts - (8 ms in self)Stage : Start - (1 min 30 sec in block)Prepare CMPrepare CM - (1 min 30 sec in block)Change current directory : Start - (1 min 30 sec in block)/data/Automation/mainChange current directory : Body : Start - (1 min 30 sec in block)Shell Script - (0.26 sec in self)/lan/sig/cds/22.10main/latest/tools/bin/SigritySuite -vPrint Message - (2 ms in self)CMVer is Layout Workbench 23.1.0.11171.395154   000
+Shell Script - (1 min 30 sec in self)
+                                    lscpu
+                                    date
+                                    pushd ${ProductPath}
+                                    ${SourceCM}/tools/bin/SigritySuite -v
+                                    #cd ${SourceCM}
+                                    #test -d ${DestCM}
+                                    #ls | xargs -n1 -P0 -I% rsync -avz --exclude "./tools/bin/core.*" --exclude "./doc" --exclude "./Internal" ./ --relative %  ${DestCM}
+                                    
+                                    #rm -rf ${DestCM}
+                                    ${MsRsyncRepo}/msrsync -p 80 -P  --stats ${SourceCM}/ ${DestCM}
+                                    rsync -avz --exclude "tools.lnx86/bin/core.*" --exclude "doc" --exclude "Internal" ${SourceCM}/ ${DestCM} --delete
+
+                                    ${DestCM}/tools/bin/SigritySuite -v
+                                    popd
+                                    date
+                                Stage : Start - (5.6 sec in block)Make CleanMake Clean - (5.6 sec in block)Change current directory : Start - (5.6 sec in block)/data/Automation/mainChange current directory : Body : Start - (5.6 sec in block)Print Message - (2 ms in self)Make Clean All Projects.Shell Script - (5.6 sec in self)
+                                        echo "=============================== Start Clean ================================"
+
+                                        test -e ${ProductPath}/Programs/CAD3D/Output && echo "MCAD need to be cleaned!" 
+                                        chmod u+x ${UtilRepo}/CheckBuild/Linux/CleanAllProjects.sh
+                                        ${UtilRepo}/CheckBuild/Linux/CleanAllProjects.sh ${ProductPath}
+                                        test -e ${ProductPath}/Programs/CAD3D/Output || echo "Cleaned MCAD successfully!" 
+                                
+                                        echo "=============================== Finish Clean ================================"
+                                    Stage : Start - (6 min 4 sec in block)Build Shared LibBuild Shared Lib - (6 min 4 sec in block)Print Message - (2 ms in self)Start to build the Share LibChange current directory : Start - (6 min 4 sec in block)/data/Automation/mainChange current directory : Body : Start - (6 min 4 sec in block)Shell Script - (6 min 4 sec in self)
+                                chmod u+x ${UtilRepo}/CheckBuild/Linux/BuildLibBuildWrapper.sh
+                                ${UtilRepo}/CheckBuild/Linux/BuildLibBuildWrapper.sh ${ProductPath} 
+                                cp -af ${ProductPath}/Bin/_Bin90/rh64/CelsiusFEM.exe ${ProductPath}/LocalBuild/tools/bin
+                                Stage : Start - (33 min in block)Build All ProductsBuild All Products - (33 min in block)Change current directory : Start - (33 min in block)/data/Automation/mainChange current directory : Body : Start - (33 min in block)Execute in parallel : Start - (33 min in block)Branch: CompilingSigritySuite - (9 ms in block)Print Message - (2 ms in self)Compiling SigritySuite.Shell Script - (33 min in self)
+                                        echo "=============================== Start Build ================================"
+
+                                        chmod u+x ${UtilRepo}/CheckBuild/Linux/BuildSigritySuite.sh
+                                        ${UtilRepo}/CheckBuild/Linux/BuildSigritySuite.sh ${ProductPath}
+
+                                        echo "=============================== Finish Build ================================"
+                                    Branch: CompilingSigrityDependencies - (1 ms in block)Print Message - (1 ms in self)Compiling Sigrity Dependencies.Shell Script - (25 min in self)
+                                        echo "=============================== Start Build ================================"
+
+                                        chmod u+x ${UtilRepo}/CheckBuild/Linux/BuildSigrityDependencies.sh
+                                        ${UtilRepo}/CheckBuild/Linux/BuildSigrityDependencies.sh ${ProductPath}
+
+                                        echo "=============================== Finish Build ==============================="
+                                    Branch: CompilingWave3DEngine - (30 ms in block)Print Message - (2 ms in self)Compiling Wave3D Engine.Shell Script - (28 min in self)
+                                        echo "=============================== Start Build ================================"
+
+                                        chmod u+x ${UtilRepo}/CheckBuild/Linux/BuildWave3DEngine.sh
+                                        ${UtilRepo}/CheckBuild/Linux/BuildWave3DEngine.sh ${ProductPath}
+
+                                        echo "============================== Finish Build ================================"
+                                    Branch: CompilingCelsiusEngine - (41 ms in block)Print Message - (1 ms in self)Compiling Celsius Engine.Shell Script - (6 min 26 sec in self)Branch: CompilingPythonModlues - (1 ms in block)Print Message - (2 ms in self)Compiling Python Modules.Shell Script - (25 min in self)
+                                        echo "=============================== Start Build ================================"
+
+                                        chmod u+x ${ProductPath}/Install/cm/jenkins_utils/Linux/TrinityUtil.sh
+                                        ${ProductPath}/Install/cm/jenkins_utils/Linux/TrinityUtil.sh ${ProductPath}
+
+                                        echo "============================== Finish Build ================================"
+                                    Branch: CompilingMCAD - (60 ms in block)Print Message - (2 ms in self)Compiling MCAD.Shell Script - (20 min in self)
+                                        echo "=============================== Start Build ================================"
+
+                                        chmod u+x ${UtilRepo}/CheckBuild/Linux/BuildMCADWrapper.sh
+                                        ${UtilRepo}/CheckBuild/Linux/BuildMCADWrapper.sh ${ProductPath}
+
+                                        echo "============================== Finish Build ================================"
+                                    Branch: CompilingCADGK - (12 min in block)Print Message - (2 ms in self)Compiling CADGK Products.Print Message - (2 ms in self)WORKSPACE is /data/Automation/mainShell Script - (12 min in self)
+                                        echo "before"
+                                        pwd
+                                        cd ${ProductPath}
+                                        echo "after"
+                                        pwd
+                                        echo "=============================== Start Build ================================"
+
+                                        chmod u+x ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_compile_debug.sh
+                                        ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_compile_debug.sh
+                                        chmod u+x ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_runcase_debug.sh
+                                        ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_runcase_debug.sh
+
+                                        echo "=============================== Finish Build ==============================="
+                                    Stage : Start - (12 sec in block)Extract All ProductsExtract All Products - (12 sec in block)Print Message - (2 ms in self)Start to Extract All the Build OutputChange current directory : Start - (12 sec in block)/data/Automation/mainChange current directory : Body : Start - (12 sec in block)Shell Script - (12 sec in self)Stage : Start - (1.5 sec in block)ExtendTimeoutExtendTimeout - (1.5 sec in block)Change current directory : Start - (1.5 sec in block)/data/Automation/mainChange current directory : Body : Start - (1.5 sec in block)Shell Script - (1.5 sec in self)
+                                    ${UtilRepo}/CheckBuild/OverrideTimeout.sh ./tests
+                                Stage : Start - (30 min in block)Automation CasesAutomation Cases - (30 min in block)Enforce time limit : Start - (30 min in block)60Enforce time limit : Body : Start - (30 min in block)Change current directory : Start - (30 min in block)/data/Automation/mainChange current directory : Body : Start - (30 min in block)Shell Script - (0.26 sec in self)
+                                        echo "Split trinity cases into 3 folders:"
+                                        pythonExePath=${ProductPath}/Install/cm/jenkins_utils/tools/Linux/Python3.4/bin/python3.4
+                                        ${pythonExePath} ${ProductPath}/Install/cm/jenkins_utils/SplitCases.py  ${ProductPath}/tests/unit_tests/trinity 3
+                                    Shell Script - (0.26 sec in self)
+                                        echo "Split PDC cases into 2 folders:"
+                                        pythonExePath=${ProductPath}/Install/cm/jenkins_utils/tools/Linux/Python3.4/bin/python3.4
+                                        ${pythonExePath} ${ProductPath}/Install/cm/jenkins_utils/SplitCases.py  ${ProductPath}/tests/unit_tests/pdc 2
+                                    Shell Script - (0.26 sec in self)
+                                        echo "Override the default timeout for dvautotest to resolve no active and kill within 810s"
+                                        cp -af ${UtilRepo}/CheckBuild/Linux/RunPVLinuxRegression.bash ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.bash
+                                    Execute in parallel : Start - (30 min in block)Branch: AT3dWorkbench - (13 ms in block)Print Message - (2 ms in self)Run 3dWorkbench Automation Cases.Enforce time limit : Start - (14 min in block)60Enforce time limit : Body : Start - (14 min in block)Shell Script - (14 min in self)
+                                                echo "Run workbench ."
+                                                chmod u+x ${ProductPath}/Programs/CAD3D/Tests/Regressions/TestRegressions.sh
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh ${ProductPath}/tests/unit_tests/3dworkbench 
+
+                                                ${ProductPath}/Programs/CAD3D/Tests/Regressions/TestRegressions.sh --Batch
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/3dworkbench --root ${ProductPath}/LocalBuild
+                                            Branch: ATClarityPart1 - (17 ms in block)Print Message - (2 ms in self)Run Clarity Automation Cases part1.Enforce time limit : Start - (30 min in block)60Enforce time limit : Body : Start - (30 min in block)Shell Script - (30 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/trinity/splitted/part1 --root ${ProductPath}/LocalBuild
+                                            Branch: ATClarityPart2 - (1 ms in block)Print Message - (2 ms in self)Run Clarity Automation Cases part2.Enforce time limit : Start - (30 min in block)60Enforce time limit : Body : Start - (30 min in block)Shell Script - (30 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/trinity/splitted/part2 --root ${ProductPath}/LocalBuild
+                                            Branch: ATClarityPart3 - (23 ms in block)Print Message - (1 ms in self)Run Clarity Automation Cases part3.Enforce time limit : Start - (17 min in block)60Enforce time limit : Body : Start - (17 min in block)Shell Script - (17 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/trinity/splitted/part3 --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationECAD - (1 ms in block)Print Message - (2 ms in self)Run ECAD Automation Cases.Enforce time limit : Start - (22 min in block)60Enforce time limit : Body : Start - (22 min in block)Shell Script - (22 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/thermal/ECAD --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationTranslator - (28 ms in block)Print Message - (2 ms in self)Automation Translator.Enforce time limit : Start - (9 min 3 sec in block)60Enforce time limit : Body : Start - (9 min 3 sec in block)Print Message - (2 ms in self)Run Translator Automation Cases.Shell Script - (9 min 3 sec in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/post_regression/translator
+                                            Branch: AutomationS2K - (1 ms in block)Print Message - (2 ms in self)Automation S2K.Enforce time limit : Start - (26 min in block)60Enforce time limit : Body : Start - (26 min in block)Print Message - (1 ms in self)Run S2K Automation Cases.Shell Script - (26 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/s2k --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationT2B - (34 ms in block)Print Message - (2 ms in self)Automation T2B.Enforce time limit : Start - (6 min 35 sec in block)60Enforce time limit : Body : Start - (6 min 35 sec in block)Print Message - (2 ms in self)Run T2B Automation Cases.Shell Script - (6 min 34 sec in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/t2b --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationPWT - (37 ms in block)Print Message - (2 ms in self)Automation PWT.Enforce time limit : Start - (34 sec in block)60Enforce time limit : Body : Start - (34 sec in block)Print Message - (1 ms in self)Run PWT Automation Cases.Shell Script - (34 sec in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/pwt --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationBBS - (1 ms in block)Print Message - (2 ms in self)Automation BBS.Enforce time limit : Start - (24 min in block)60Enforce time limit : Body : Start - (24 min in block)Print Message - (2 ms in self)Run BBS Automation Cases.Shell Script - (24 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/bbs --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationSpdsim - (43 ms in block)Print Message - (2 ms in self)Automation Spdsim.Enforce time limit : Start - (0.4 sec in block)60Enforce time limit : Body : Start - (0.38 sec in block)Print Message - (1 ms in self)Run Spdsim Automation Cases.Shell Script - (0.26 sec in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/spdsim --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationFDTD - (1 ms in block)Print Message - (1 ms in self)Automation FDTD.Enforce time limit : Start - (12 min in block)60Enforce time limit : Body : Start - (12 min in block)Print Message - (2 ms in self)Run FDTD Automation Cases.Shell Script - (12 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh ${ProductPath}/tests/unit_tests/fdtd
+
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/fdtd --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationCFD - (49 ms in block)Print Message - (2 ms in self)Automation CFD.Enforce time limit : Start - (6 min 19 sec in block)60Enforce time limit : Body : Start - (6 min 19 sec in block)Print Message - (2 ms in self)Run CFD Automation Cases.Shell Script - (6 min 19 sec in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh ${ProductPath}/tests/unit_tests/thermal/CFD
+
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/thermal/CFD --root ${ProductPath}/LocalBuild
+                                            Branch: ATCelsius3DMCAD - (52 ms in block)Print Message - (2 ms in self)Automation MCAD.Enforce time limit : Start - (18 min in block)60Enforce time limit : Body : Start - (18 min in block)Print Message - (1 ms in self)Run Celsius3DMCAD Automation Cases.Shell Script - (18 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh ${ProductPath}/tests/unit_tests/thermal/MCAD
+
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/thermal/MCAD --root ${ProductPath}/LocalBuild
+                                            Branch: AutomationCADGK - (1 ms in block)Print Message - (1 ms in self)Automation CADGK.Enforce time limit : Start - (10 min in block)60Enforce time limit : Body : Start - (10 min in block)Print Message - (2 ms in self)Run CADGK Automation Cases.Print Message - (1 ms in self)WORKSPACE is /data/Automation/mainShell Script - (10 min in self)
+                                                echo "before"
+                                                pwd
+                                                cd ${ProductPath}
+                                                echo "after"
+                                                pwd
+                                                chmod u+x  ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_compile_release.sh
+                                                ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_compile_release.sh
+                                                chmod u+x  ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_runcase_release.sh
+                                                ${ProductPath}/Projects/CADGeomKernel/script/cadgk_linux_runcase_release.sh
+                                            Branch: ATOptimality - (1 min 52 sec in block)Print Message - (2 ms in self)Automation Optimality.Enforce time limit : Start - (1 min 52 sec in block)60Enforce time limit : Body : Start - (1 min 52 sec in block)Print Message - (1 ms in self)Run Optimality Automation Cases.Shell Script - (1 min 52 sec in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RemoveReadonly.sh ${ProductPath}/tests/unit_tests/Optimality
+
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/Optimality --root ${ProductPath}/LocalBuild
+                                            Stage : Start - (12 min in block)Automation PSI/PDC/OPI/XIM CasesAutomation PSI/PDC/OPI/XIM Cases - (12 min in block)Enforce time limit : Start - (12 min in block)30Enforce time limit : Body : Start - (12 min in block)Change current directory : Start - (12 min in block)/data/Automation/mainChange current directory : Body : Start - (12 min in block)Execute in parallel : Start - (12 min in block)Branch: AutomationPSI - (1 ms in block)Print Message - (2 ms in self)Run PSI Automation Cases.Enforce time limit : Start - (6 min 28 sec in block)30Enforce time limit : Body : Start - (6 min 28 sec in block)Shell Script - (6 min 28 sec in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/post_regression/psi
+                                            Branch: ATPDCPart1 - (12 ms in block)Print Message - (2 ms in self)Run PowerDC Automation Cases Part1.Enforce time limit : Start - (10 min in block)30Enforce time limit : Body : Start - (10 min in block)Shell Script - (10 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/pdc/splitted/part1
+                                            Branch: ATPDCPart2 - (15 ms in block)Print Message - (2 ms in self)Run PowerDC Automation Cases Part2.Enforce time limit : Start - (12 min in block)30Enforce time limit : Body : Start - (12 min in block)Shell Script - (12 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/pdc/splitted/part2
+                                            Branch: AutomationXIM - (1 ms in block)Print Message - (1 ms in self)Run XIM Automation Cases.Enforce time limit : Start - (12 min in block)30Enforce time limit : Body : Start - (12 min in block)Shell Script - (12 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/xim
+                                            Branch: AutomationOPI - (11 min in block)Print Message - (2 ms in self)Run OPI Automation Cases.Enforce time limit : Start - (11 min in block)30Enforce time limit : Body : Start - (11 min in block)Shell Script - (11 min in self)
+                                                chmod u+x ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh
+                                                ${ProductPath}/Install/cm/jenkins_utils/RunPVLinuxRegression.sh ${ProductPath}/LocalBuild/tools/bin ${ProductPath}/tests/unit_tests/opi
+                                            Stage : Start - (0.16 sec in block)NoticeNotice - (0.15 sec in block)Print Message - (6 ms in self)SuccessExtended Email - (0.13 sec in self)Stage : Start - (18 ms in block)CleanupCleanup - (9 ms in block)Print Message - (2 ms in self)ProductPath is /data/Automation/mainJenkins 2.319.2

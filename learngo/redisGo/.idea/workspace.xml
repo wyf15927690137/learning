@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d241aa5-7c28-4c4b-a5c1-e8f2174f4668" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../learnpy/CaseTime/genXlsx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnbat/1basic.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnbat/1basic.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnbat/6robocopy.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnbat/6robocopy.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnbat/if.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnbat/if.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnbat/test.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnbat/test.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/16file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnpy/16file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/19requestget.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/1basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnpy/1basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/20requestspost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/23.mongodb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/24os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/25StringContain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/2import.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnpy/2import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/4dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnpy/4dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/9argv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnpy/9argv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnpy/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnpy/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnsh/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnsh/2stdioe.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnsh/2stdioe.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnsh/stdoe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnsh/stdoe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../learnsh/stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnsh/stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/Git.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/Git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/LearnVim.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/LearnVim.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/LinuxCommand.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/LinuxCommand.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/LinuxSystemCompile.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/LinuxSystemCompile.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/LnxCommand.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/LnxCommand.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/P4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/P4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/ToBeADeveloper.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/ToBeADeveloper.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/learnbat.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/learnbat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/test.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Tools/go/go1.20.5" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2T98CAA0MExVuQrUfBRXq1feLPd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/PersonalLearn/learning/learngo/redisGo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

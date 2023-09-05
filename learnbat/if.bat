@@ -1,7 +1,11 @@
 @echo off
 set x=%1
 set y=%2
-IF %x% EQU %y% (echo yes) ELSE (echo no)
+IF %x% EQU %y% (echo yes) ELSE (
+    echo no
+    echo this is a test line
+    echo 3+5
+    )
 set item1=abc
 set item2=xyz
 IF NOT %item1% == %item2% (echo yes

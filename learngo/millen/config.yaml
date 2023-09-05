@@ -1,0 +1,29 @@
+jenkinsinfo:
+  username: "admin"
+  password: "admin123456789"
+  jenkinsurl: "http://si-rdtest1:9090/"
+  jobname: "CheckBuild/job/PreCheck_main/"
+mysql:
+  path: 10.134.176.64
+  port: 30105
+#  config:
+  db-name: precheckin
+  username: root
+  password: password
+#  prefix: ""
+#  singular: false
+#  engine: ""
+#  max-idle-conns: 10
+#  max-open-conns: 100
+#  log-mode: ""
+#  log-zap: false
+zap:
+  level: info
+  prefix: '[cadence/precheck/server]'
+  format: console
+  director: log
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  max-age: 0
+  show-line: true
+  log-in-console: true

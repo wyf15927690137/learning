@@ -1,0 +1,7 @@
+D:\Precheck_Local\PC-DT-YANFEI\sigrity\main\tests\unit_tests\opi
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\opi\nightly\CCMPR01815648_apply_powertree
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\opi\nightly\opi_sample_cases\Demo_Decap_locations
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\opi\nightly\opi_sample_cases\Demo_Loop_Inductance
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\opi\nightly\opi_sample_cases\Demo_PDN_Verification
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\opi\nightly\opi_sample_cases\Demo_Pin_Inductance
+D:\Precheck_Local\PC-DT-YANFEI\sig_reg\23.10\main\pv\sig\opi\nightly\opi_sample_cases\Device_Optimization
