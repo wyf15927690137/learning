@@ -26,3 +26,9 @@ this is a test line
 write more official release email 
 
 python file name must not be identical with the python module name 
+
+
+
+VNC viewer F8 conflicts with goland 
+
+vnc viewer  -> preference -> Expert -> Filter -> Menu key

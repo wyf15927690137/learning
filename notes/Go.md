@@ -146,3 +146,13 @@ wget https://go.dev/dl/go1.20.5.linux-amd64.tar.gz
 start millenium on windows
 
 ![image-20230710153404061](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20230710153404061.png)
+
+debug millennium on linux:
+
+![image-20231103100842579](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20231103100842579.png)
+
+The breakpoint here will not work, put the breakpoint inside the api
+
+![image-20231031165518403](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20231031165518403.png)
+
+We can start the server first, and then set the breakpoint

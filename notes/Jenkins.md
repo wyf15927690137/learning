@@ -64,3 +64,6 @@ curl -X POST http://admin:113f4b569d2a7161eb3d9bde75111d4c02@si-rdtest1:9090/job
 curl -X post http://svc_cicd:110ab11e08fa74b0498ac8e22411b0a136@eudvl-jenum.cadence.com:8080/job/CheckBuild/job/main/job/Fidelity_All_In_One/buildWithParameters?token=8fbe0598-c71c-42f8-b396-dd48091f6fe7 -F username=yanfeiw
 ```
 
+# Get jenkins file from git hub
+
+![image-20231120154132621](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20231120154132621.png)

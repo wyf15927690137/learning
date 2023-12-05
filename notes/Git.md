@@ -97,8 +97,8 @@ remote branch
 
 ```sh
 git checkout -b local_branch
-git ad .
-git cm -m "init remote_branch"
+#git ad .
+#git cm -m "init remote_branch"
 git push origin remote_branch
 git push origin --delete remote_branch
 
@@ -271,5 +271,55 @@ https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-i
 Setting	        		Repo (check-in)			Working Tree (checkout)
 core.autocrlf=true			LF						CRLF
 core.autocrlf=input			LF						original (usually LF, or CRLF if you're viewing a file you created on Windows)
+```
+
+```
+git config pull.rebase false  # merge
+```
+
+remove large file history and push large file:
+
+```
+pip install git-filter-repo
+git filter-repo --invert-paths --path <path to the file or directory>
+git push origin master
+
+git lfs install 
+git lfs track "*.so"
+git add .gitattributes
+git add file.spd
+git cm -m "mes"
+git push origin master
+
+```
+
+git pull remote change and merge into my local change:
+
+```
+git checkout mybranch
+git fetch
+git pull (meet error: there is conflict)
+git cm -m "my local change"
+git fetch
+git merge origin master
+(deal with the conflict manually)
+```
+
+remove the file from git add:
+
+```
+git reset HEAD <file>
+```
+
+remove the file from git add and remove local changes to this file:
+
+```
+git checkout -- <file>
+```
+
+remove the file from git commit:
+
+```
+git revert <cm-id>
 ```
 

@@ -23,6 +23,7 @@ pip install --upgrade pip -i http://pypi.douban.com/simple/ --trusted-host pypi.
 
 ```
 sudo ln -s /usr/bin/python2.4 /usr/bin/python
+ln -s /data/yanfeiw/tools/node-v20.6.0-linux-x64/bin/npm /data/yanfeiw/tools/bin/npm
 ```
 
 
@@ -77,6 +78,9 @@ cd lib_linux
 # specify the python packege location
 python -m pip install jira -t .
 python -m pip install p4python -t .
+
+python -m pip3 list
+python -m pip3 show gunicorn
 ```
 
 Sys.path is a list of directories where the Python interpreter searches for modules. Mind you, this is a list! When a module is claimed in a project file, it will search through each one of the directories in the list. If the module is located within one of those directories, then everything goes fine and your project is successfully rendered. However, if the module is not located within any of the listed directories, then your project will fail lest you can “append” the directory where your module is located to the list using the append() function. In this tutorial, we’ll be learning about how to use sys.path.append() in Python.
@@ -132,3 +136,24 @@ python3 ${curScriptFolder}/start.py $@
 
 ```
 
+generate a requirements.txt
+
+```
+python -m pip install pipreqs
+python -m pipreqs.pipreqs D:\Files\MatainingFiles\c2flow_python
+```
+
+# Flask
+
+```
+# debug on pycharm
+https://
+```
+
+![image-20231122141329593](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20231122141329593.png)
+
+# http : specify port:
+
+![image-20231122141540709](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20231122141540709.png)
+
+![image-20231122161007669](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20231122161007669.png)

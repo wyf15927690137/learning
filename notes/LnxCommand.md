@@ -29,8 +29,9 @@ chmod 777 file	r=4 w=2 x=1
 tar
 
 ```
-tar -xvf archive.tar.xz -C ./
+tar -xJvf archive.tar.xz -C ./
 tar -xvzf fafa.tar.gz -C ./
+tar -xzvf *.
 ```
 
 change the permission of a folder

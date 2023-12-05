@@ -1128,15 +1128,7 @@ kubectl delete pod <PODNAME> --grace-period=0 --force --namespace <NAMESPACE>
 
 # Config nvidia GPU:
 
-```
-helm repo add nvdp https://nvidia.github.io/k8s-device-plugin && helm repo update
-helm install --generate-name nvdp/nvidia-device-plugin
-```
 
-```
-image source:
-vi /etc/yum.repos.d/k8s.repo
-```
 
 image sources:
 
@@ -1371,6 +1363,8 @@ label a node:
 
 ```
 kubectl label nodes <node-name> <key>=<value>
+# remove
+kubectl label nodes <node-name> <label-key>-
 ```
 
 change apiserver port range:
@@ -1381,3 +1375,62 @@ vim /etc/kubernetes/manifests/kube-apiserver.yaml
 - --service-node-port-range=30000-32767
 ```
 
+
+
+
+
+
+
+Nvidia and AMD GPU plugin
+
+```
+https://github.com/NVIDIA/k8s-device-plugin
+
+```
+
+k8s make a node unschedulale
+
+```
+kubectl cordon shsirdlnx2
+kubectl uncordon shsirdlnx2
+```
+
+self define custom resources in k8s
+
+```bash
+#!/bin/bash
+kubectl proxy &
+pid=$!
+nodes=$(kubectl get node | awk '{print $1}' | tail -n $(( $(kubectl get node | wc -l) - 1 )))
+for node in $nodes
+do
+    curl --header "Content-Type: application/json-patch+json" \
+    --request PATCH \
+    --data '[{"op": "add", "path": "/status/capacity/millennium.com~1vn", "value": "6"}]' \
+    http://localhost:8001/api/v1/nodes/$node/status
+done
+kill $pid
+```
+
+clean custom resources in k8s
+
+```bash
+#!/bin/bash
+kubectl proxy &
+pid=$!
+nodes=$(kubectl get node | awk '{print $1}' | tail -n $(( $(kubectl get node | wc -l) - 1 )))
+for node in $nodes
+do
+    curl --header "Content-Type: application/json-patch+json" \
+    --request PATCH \
+    --data '[{"op": "remove", "path": "/status/capacity/millennium.com~1vn"}]' \
+    http://localhost:8001/api/v1/nodes/$node/status
+done
+kill $pid
+```
+
+```
+ssh millennium@shsirdlnx2 -p 30723
+```
+
+![image-20231204102602881](C:\Users\yanfeiw\AppData\Roaming\Typora\typora-user-images\image-20231204102602881.png)

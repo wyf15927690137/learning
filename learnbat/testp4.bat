@@ -1,1 +1,1 @@
-start echo %*
+start python.exe "start.py" %*

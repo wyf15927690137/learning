@@ -5,10 +5,10 @@ client = pymongo.MongoClient(host='127.0.0.1')
 db_list = client.list_database_names()
 print(db_list)
 
-# db = client['traffic']
-# collections = db['person']
-# new_db_list = client.list_database_names()
-# print(new_db_list)
+db = client['traffic']
+collections = db['person']
+new_db_list = client.list_database_names()
+print(new_db_list)
 
 # person1 = {'name': 'yfw',
 #            'age': '26',

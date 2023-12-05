@@ -1,0 +1,3 @@
+import base64
+str = 'oWRkYXRhomR0eXBldGNiZ19saWNlbnNlU3RhdHVzTXNnamF0dHJpYnV0ZXOhbGhvc3RJZEV4cGlyeXghMTItMzEtMjAyM1QyMzo1OTo1OS0wNTowMCAoVVRDLTUp'
+destr = base64.b64decode(str)
